@@ -1,0 +1,2551 @@
+{
+  "vocab_size": 5000,
+  "lowercase": true,
+  "token2id": {
+    "[PAD]": 0,
+    "[UNK]": 1,
+    "[BOS]": 2,
+    "[EOS]": 3,
+    "[SEP]": 4,
+    "[CLS]": 5,
+    "[MASK]": 6,
+    "'": 7,
+    "'s": 8,
+    "+": 9,
+    ",": 10,
+    "0": 11,
+    "1": 12,
+    "10": 13,
+    "10+": 14,
+    "2": 15,
+    "2+": 16,
+    "3": 17,
+    "3+": 18,
+    "5": 19,
+    "5+": 20,
+    ":": 21,
+    "a": 22,
+    "ab": 23,
+    "abil": 24,
+    "abili": 25,
+    "abiliti": 26,
+    "abilities": 27,
+    "ac": 28,
+    "al": 29,
+    "alg": 30,
+    "algor": 31,
+    "algorith": 32,
+    "algorithm": 33,
+    "algorithms": 34,
+    "an": 35,
+    "and": 36,
+    "are": 37,
+    "aw": 38,
+    "aws": 39,
+    "az": 40,
+    "azure": 41,
+    "b": 42,
+    "bac": 43,
+    "bach": 44,
+    "bachel": 45,
+    "bachelor": 46,
+    "c": 47,
+    "clo": 48,
+    "clou": 49,
+    "cloud": 50,
+    "co": 51,
+    "com": 52,
+    "comm": 53,
+    "communi": 54,
+    "communic": 55,
+    "communica": 56,
+    "communication": 57,
+    "comp": 58,
+    "compu": 59,
+    "comput": 60,
+    "computer": 61,
+    "d": 62,
+    "da": 63,
+    "dat": 64,
+    "data": 65,
+    "de": 66,
+    "degre": 67,
+    "degree": 68,
+    "deve": 69,
+    "develo": 70,
+    "developer": 71,
+    "dj": 72,
+    "djan": 73,
+    "django": 74,
+    "do": 75,
+    "doc": 76,
+    "dock": 77,
+    "docker": 78,
+    "e": 79,
+    "ea": 80,
+    "el": 81,
+    "en": 82,
+    "eng": 83,
+    "engin": 84,
+    "engine": 85,
+    "engineer": 86,
+    "ent": 87,
+    "er": 88,
+    "es": 89,
+    "ex": 90,
+    "exc": 91,
+    "excel": 92,
+    "excell": 93,
+    "excellent": 94,
+    "exper": 95,
+    "experience": 96,
+    "experti": 97,
+    "expertis": 98,
+    "expertise": 99,
+    "f": 100,
+    "for": 101,
+    "g": 102,
+    "gc": 103,
+    "gcp": 104,
+    "go": 105,
+    "gre": 106,
+    "h": 107,
+    "ha": 108,
+    "have": 109,
+    "i": 110,
+    "ien": 111,
+    "ienc": 112,
+    "ience": 113,
+    "il": 114,
+    "in": 115,
+    "ing": 116,
+    "ip": 117,
+    "ith": 118,
+    "j": 119,
+    "juni": 120,
+    "junior": 121,
+    "k": 122,
+    "ku": 123,
+    "kub": 124,
+    "kuber": 125,
+    "kuberne": 126,
+    "kubernet": 127,
+    "kubernetes": 128,
+    "l": 129,
+    "lea": 130,
+    "lead": 131,
+    "leader": 132,
+    "leaders": 133,
+    "leadersh": 134,
+    "leadership": 135,
+    "lo": 136,
+    "loo": 137,
+    "look": 138,
+    "looking": 139,
+    "m": 140,
+    "ml": 141,
+    "must": 142,
+    "n": 143,
+    "ne": 144,
+    "nee": 145,
+    "neede": 146,
+    "needed": 147,
+    "o": 148,
+    "of": 149,
+    "ol": 150,
+    "on": 151,
+    "or": 152,
+    "p": 153,
+    "per": 154,
+    "po": 155,
+    "pos": 156,
+    "posi": 157,
+    "position": 158,
+    "post": 159,
+    "postgre": 160,
+    "postgres": 161,
+    "postgresq": 162,
+    "postgresql": 163,
+    "pr": 164,
+    "prin": 165,
+    "princ": 166,
+    "princip": 167,
+    "principal": 168,
+    "pro": 169,
+    "prob": 170,
+    "probl": 171,
+    "proble": 172,
+    "problem": 173,
+    "prof": 174,
+    "profi": 175,
+    "profic": 176,
+    "proficienc": 177,
+    "proficiency": 178,
+    "py": 179,
+    "pyt": 180,
+    "pyth": 181,
+    "python": 182,
+    "pytor": 183,
+    "pytorc": 184,
+    "pytorch": 185,
+    "q": 186,
+    "r": 187,
+    "re": 188,
+    "reac": 189,
+    "react": 190,
+    "red": 191,
+    "redi": 192,
+    "redis": 193,
+    "req": 194,
+    "requ": 195,
+    "requi": 196,
+    "requir": 197,
+    "require": 198,
+    "required": 199,
+    "requirem": 200,
+    "requirement": 201,
+    "requirements": 202,
+    "requiring": 203,
+    "rol": 204,
+    "role": 205,
+    "rust": 206,
+    "s": 207,
+    "sc": 208,
+    "science": 209,
+    "sen": 210,
+    "seni": 211,
+    "senior": 212,
+    "sk": 213,
+    "skil": 214,
+    "skill": 215,
+    "skills": 216,
+    "sol": 217,
+    "soli": 218,
+    "solid": 219,
+    "solv": 220,
+    "solving": 221,
+    "st": 222,
+    "sta": 223,
+    "staf": 224,
+    "staff": 225,
+    "str": 226,
+    "stron": 227,
+    "strong": 228,
+    "stru": 229,
+    "struc": 230,
+    "struct": 231,
+    "structure": 232,
+    "structures": 233,
+    "t": 234,
+    "tea": 235,
+    "team": 236,
+    "teamwork": 237,
+    "ten": 238,
+    "tens": 239,
+    "tensor": 240,
+    "tensorf": 241,
+    "tensorflo": 242,
+    "tensorflow": 243,
+    "th": 244,
+    "ti": 245,
+    "tion": 246,
+    "ty": 247,
+    "typ": 248,
+    "types": 249,
+    "typesc": 250,
+    "typescr": 251,
+    "typescrip": 252,
+    "typescript": 253,
+    "u": 254,
+    "un": 255,
+    "und": 256,
+    "under": 257,
+    "underst": 258,
+    "understand": 259,
+    "understanding": 260,
+    "uni": 261,
+    "ure": 262,
+    "ust": 263,
+    "v": 264,
+    "ve": 265,
+    "ver": 266,
+    "verb": 267,
+    "verbal": 268,
+    "w": 269,
+    "we": 270,
+    "with": 271,
+    "wor": 272,
+    "work": 273,
+    "wr": 274,
+    "wri": 275,
+    "writ": 276,
+    "written": 277,
+    "x": 278,
+    "y": 279,
+    "yea": 280,
+    "year": 281,
+    "years": 282,
+    "z": 283
+  },
+  "id2token": {
+    "0": "[PAD]",
+    "1": "[UNK]",
+    "2": "[BOS]",
+    "3": "[EOS]",
+    "4": "[SEP]",
+    "5": "[CLS]",
+    "6": "[MASK]",
+    "7": "'",
+    "8": "'s",
+    "9": "+",
+    "10": ",",
+    "11": "0",
+    "12": "1",
+    "13": "10",
+    "14": "10+",
+    "15": "2",
+    "16": "2+",
+    "17": "3",
+    "18": "3+",
+    "19": "5",
+    "20": "5+",
+    "21": ":",
+    "22": "a",
+    "23": "ab",
+    "24": "abil",
+    "25": "abili",
+    "26": "abiliti",
+    "27": "abilities",
+    "28": "ac",
+    "29": "al",
+    "30": "alg",
+    "31": "algor",
+    "32": "algorith",
+    "33": "algorithm",
+    "34": "algorithms",
+    "35": "an",
+    "36": "and",
+    "37": "are",
+    "38": "aw",
+    "39": "aws",
+    "40": "az",
+    "41": "azure",
+    "42": "b",
+    "43": "bac",
+    "44": "bach",
+    "45": "bachel",
+    "46": "bachelor",
+    "47": "c",
+    "48": "clo",
+    "49": "clou",
+    "50": "cloud",
+    "51": "co",
+    "52": "com",
+    "53": "comm",
+    "54": "communi",
+    "55": "communic",
+    "56": "communica",
+    "57": "communication",
+    "58": "comp",
+    "59": "compu",
+    "60": "comput",
+    "61": "computer",
+    "62": "d",
+    "63": "da",
+    "64": "dat",
+    "65": "data",
+    "66": "de",
+    "67": "degre",
+    "68": "degree",
+    "69": "deve",
+    "70": "develo",
+    "71": "developer",
+    "72": "dj",
+    "73": "djan",
+    "74": "django",
+    "75": "do",
+    "76": "doc",
+    "77": "dock",
+    "78": "docker",
+    "79": "e",
+    "80": "ea",
+    "81": "el",
+    "82": "en",
+    "83": "eng",
+    "84": "engin",
+    "85": "engine",
+    "86": "engineer",
+    "87": "ent",
+    "88": "er",
+    "89": "es",
+    "90": "ex",
+    "91": "exc",
+    "92": "excel",
+    "93": "excell",
+    "94": "excellent",
+    "95": "exper",
+    "96": "experience",
+    "97": "experti",
+    "98": "expertis",
+    "99": "expertise",
+    "100": "f",
+    "101": "for",
+    "102": "g",
+    "103": "gc",
+    "104": "gcp",
+    "105": "go",
+    "106": "gre",
+    "107": "h",
+    "108": "ha",
+    "109": "have",
+    "110": "i",
+    "111": "ien",
+    "112": "ienc",
+    "113": "ience",
+    "114": "il",
+    "115": "in",
+    "116": "ing",
+    "117": "ip",
+    "118": "ith",
+    "119": "j",
+    "120": "juni",
+    "121": "junior",
+    "122": "k",
+    "123": "ku",
+    "124": "kub",
+    "125": "kuber",
+    "126": "kuberne",
+    "127": "kubernet",
+    "128": "kubernetes",
+    "129": "l",
+    "130": "lea",
+    "131": "lead",
+    "132": "leader",
+    "133": "leaders",
+    "134": "leadersh",
+    "135": "leadership",
+    "136": "lo",
+    "137": "loo",
+    "138": "look",
+    "139": "looking",
+    "140": "m",
+    "141": "ml",
+    "142": "must",
+    "143": "n",
+    "144": "ne",
+    "145": "nee",
+    "146": "neede",
+    "147": "needed",
+    "148": "o",
+    "149": "of",
+    "150": "ol",
+    "151": "on",
+    "152": "or",
+    "153": "p",
+    "154": "per",
+    "155": "po",
+    "156": "pos",
+    "157": "posi",
+    "158": "position",
+    "159": "post",
+    "160": "postgre",
+    "161": "postgres",
+    "162": "postgresq",
+    "163": "postgresql",
+    "164": "pr",
+    "165": "prin",
+    "166": "princ",
+    "167": "princip",
+    "168": "principal",
+    "169": "pro",
+    "170": "prob",
+    "171": "probl",
+    "172": "proble",
+    "173": "problem",
+    "174": "prof",
+    "175": "profi",
+    "176": "profic",
+    "177": "proficienc",
+    "178": "proficiency",
+    "179": "py",
+    "180": "pyt",
+    "181": "pyth",
+    "182": "python",
+    "183": "pytor",
+    "184": "pytorc",
+    "185": "pytorch",
+    "186": "q",
+    "187": "r",
+    "188": "re",
+    "189": "reac",
+    "190": "react",
+    "191": "red",
+    "192": "redi",
+    "193": "redis",
+    "194": "req",
+    "195": "requ",
+    "196": "requi",
+    "197": "requir",
+    "198": "require",
+    "199": "required",
+    "200": "requirem",
+    "201": "requirement",
+    "202": "requirements",
+    "203": "requiring",
+    "204": "rol",
+    "205": "role",
+    "206": "rust",
+    "207": "s",
+    "208": "sc",
+    "209": "science",
+    "210": "sen",
+    "211": "seni",
+    "212": "senior",
+    "213": "sk",
+    "214": "skil",
+    "215": "skill",
+    "216": "skills",
+    "217": "sol",
+    "218": "soli",
+    "219": "solid",
+    "220": "solv",
+    "221": "solving",
+    "222": "st",
+    "223": "sta",
+    "224": "staf",
+    "225": "staff",
+    "226": "str",
+    "227": "stron",
+    "228": "strong",
+    "229": "stru",
+    "230": "struc",
+    "231": "struct",
+    "232": "structure",
+    "233": "structures",
+    "234": "t",
+    "235": "tea",
+    "236": "team",
+    "237": "teamwork",
+    "238": "ten",
+    "239": "tens",
+    "240": "tensor",
+    "241": "tensorf",
+    "242": "tensorflo",
+    "243": "tensorflow",
+    "244": "th",
+    "245": "ti",
+    "246": "tion",
+    "247": "ty",
+    "248": "typ",
+    "249": "types",
+    "250": "typesc",
+    "251": "typescr",
+    "252": "typescrip",
+    "253": "typescript",
+    "254": "u",
+    "255": "un",
+    "256": "und",
+    "257": "under",
+    "258": "underst",
+    "259": "understand",
+    "260": "understanding",
+    "261": "uni",
+    "262": "ure",
+    "263": "ust",
+    "264": "v",
+    "265": "ve",
+    "266": "ver",
+    "267": "verb",
+    "268": "verbal",
+    "269": "w",
+    "270": "we",
+    "271": "with",
+    "272": "wor",
+    "273": "work",
+    "274": "wr",
+    "275": "wri",
+    "276": "writ",
+    "277": "written",
+    "278": "x",
+    "279": "y",
+    "280": "yea",
+    "281": "year",
+    "282": "years",
+    "283": "z"
+  },
+  "merges": [
+    {
+      "pair": [
+        "e",
+        "r"
+      ],
+      "merged": "er"
+    },
+    {
+      "pair": [
+        "e",
+        "n"
+      ],
+      "merged": "en"
+    },
+    {
+      "pair": [
+        "r",
+        "e"
+      ],
+      "merged": "re"
+    },
+    {
+      "pair": [
+        "o",
+        "r"
+      ],
+      "merged": "or"
+    },
+    {
+      "pair": [
+        "i",
+        "n"
+      ],
+      "merged": "in"
+    },
+    {
+      "pair": [
+        "a",
+        "n"
+      ],
+      "merged": "an"
+    },
+    {
+      "pair": [
+        "an",
+        "d"
+      ],
+      "merged": "and"
+    },
+    {
+      "pair": [
+        "t",
+        "h"
+      ],
+      "merged": "th"
+    },
+    {
+      "pair": [
+        "o",
+        "n"
+      ],
+      "merged": "on"
+    },
+    {
+      "pair": [
+        "s",
+        "t"
+      ],
+      "merged": "st"
+    },
+    {
+      "pair": [
+        "e",
+        "a"
+      ],
+      "merged": "ea"
+    },
+    {
+      "pair": [
+        "e",
+        "x"
+      ],
+      "merged": "ex"
+    },
+    {
+      "pair": [
+        "p",
+        "er"
+      ],
+      "merged": "per"
+    },
+    {
+      "pair": [
+        "i",
+        "en"
+      ],
+      "merged": "ien"
+    },
+    {
+      "pair": [
+        "ien",
+        "c"
+      ],
+      "merged": "ienc"
+    },
+    {
+      "pair": [
+        "ex",
+        "per"
+      ],
+      "merged": "exper"
+    },
+    {
+      "pair": [
+        "ienc",
+        "e"
+      ],
+      "merged": "ience"
+    },
+    {
+      "pair": [
+        "i",
+        "th"
+      ],
+      "merged": "ith"
+    },
+    {
+      "pair": [
+        "l",
+        "o"
+      ],
+      "merged": "lo"
+    },
+    {
+      "pair": [
+        "in",
+        "g"
+      ],
+      "merged": "ing"
+    },
+    {
+      "pair": [
+        "o",
+        "f"
+      ],
+      "merged": "of"
+    },
+    {
+      "pair": [
+        "exper",
+        "ience"
+      ],
+      "merged": "experience"
+    },
+    {
+      "pair": [
+        "t",
+        "i"
+      ],
+      "merged": "ti"
+    },
+    {
+      "pair": [
+        "w",
+        "ith"
+      ],
+      "merged": "with"
+    },
+    {
+      "pair": [
+        "p",
+        "y"
+      ],
+      "merged": "py"
+    },
+    {
+      "pair": [
+        "en",
+        "g"
+      ],
+      "merged": "eng"
+    },
+    {
+      "pair": [
+        "eng",
+        "in"
+      ],
+      "merged": "engin"
+    },
+    {
+      "pair": [
+        "engin",
+        "e"
+      ],
+      "merged": "engine"
+    },
+    {
+      "pair": [
+        "engine",
+        "er"
+      ],
+      "merged": "engineer"
+    },
+    {
+      "pair": [
+        "re",
+        "q"
+      ],
+      "merged": "req"
+    },
+    {
+      "pair": [
+        "req",
+        "u"
+      ],
+      "merged": "requ"
+    },
+    {
+      "pair": [
+        "requ",
+        "i"
+      ],
+      "merged": "requi"
+    },
+    {
+      "pair": [
+        "y",
+        "ea"
+      ],
+      "merged": "yea"
+    },
+    {
+      "pair": [
+        "yea",
+        "r"
+      ],
+      "merged": "year"
+    },
+    {
+      "pair": [
+        "year",
+        "s"
+      ],
+      "merged": "years"
+    },
+    {
+      "pair": [
+        "u",
+        "n"
+      ],
+      "merged": "un"
+    },
+    {
+      "pair": [
+        "i",
+        "l"
+      ],
+      "merged": "il"
+    },
+    {
+      "pair": [
+        "f",
+        "or"
+      ],
+      "merged": "for"
+    },
+    {
+      "pair": [
+        "py",
+        "th"
+      ],
+      "merged": "pyth"
+    },
+    {
+      "pair": [
+        "pyth",
+        "on"
+      ],
+      "merged": "python"
+    },
+    {
+      "pair": [
+        "requi",
+        "re"
+      ],
+      "merged": "require"
+    },
+    {
+      "pair": [
+        "st",
+        "r"
+      ],
+      "merged": "str"
+    },
+    {
+      "pair": [
+        "p",
+        "r"
+      ],
+      "merged": "pr"
+    },
+    {
+      "pair": [
+        "o",
+        "l"
+      ],
+      "merged": "ol"
+    },
+    {
+      "pair": [
+        "c",
+        "o"
+      ],
+      "merged": "co"
+    },
+    {
+      "pair": [
+        "co",
+        "m"
+      ],
+      "merged": "com"
+    },
+    {
+      "pair": [
+        "un",
+        "i"
+      ],
+      "merged": "uni"
+    },
+    {
+      "pair": [
+        "ti",
+        "on"
+      ],
+      "merged": "tion"
+    },
+    {
+      "pair": [
+        "s",
+        "k"
+      ],
+      "merged": "sk"
+    },
+    {
+      "pair": [
+        "sk",
+        "il"
+      ],
+      "merged": "skil"
+    },
+    {
+      "pair": [
+        "skil",
+        "l"
+      ],
+      "merged": "skill"
+    },
+    {
+      "pair": [
+        "skill",
+        "s"
+      ],
+      "merged": "skills"
+    },
+    {
+      "pair": [
+        "e",
+        "s"
+      ],
+      "merged": "es"
+    },
+    {
+      "pair": [
+        "d",
+        "e"
+      ],
+      "merged": "de"
+    },
+    {
+      "pair": [
+        "i",
+        "p"
+      ],
+      "merged": "ip"
+    },
+    {
+      "pair": [
+        "a",
+        "l"
+      ],
+      "merged": "al"
+    },
+    {
+      "pair": [
+        "lo",
+        "o"
+      ],
+      "merged": "loo"
+    },
+    {
+      "pair": [
+        "loo",
+        "k"
+      ],
+      "merged": "look"
+    },
+    {
+      "pair": [
+        "look",
+        "ing"
+      ],
+      "merged": "looking"
+    },
+    {
+      "pair": [
+        "en",
+        "t"
+      ],
+      "merged": "ent"
+    },
+    {
+      "pair": [
+        "g",
+        "o"
+      ],
+      "merged": "go"
+    },
+    {
+      "pair": [
+        "str",
+        "on"
+      ],
+      "merged": "stron"
+    },
+    {
+      "pair": [
+        "stron",
+        "g"
+      ],
+      "merged": "strong"
+    },
+    {
+      "pair": [
+        "s",
+        "ol"
+      ],
+      "merged": "sol"
+    },
+    {
+      "pair": [
+        "com",
+        "m"
+      ],
+      "merged": "comm"
+    },
+    {
+      "pair": [
+        "comm",
+        "uni"
+      ],
+      "merged": "communi"
+    },
+    {
+      "pair": [
+        "communi",
+        "c"
+      ],
+      "merged": "communic"
+    },
+    {
+      "pair": [
+        "communic",
+        "a"
+      ],
+      "merged": "communica"
+    },
+    {
+      "pair": [
+        "communica",
+        "tion"
+      ],
+      "merged": "communication"
+    },
+    {
+      "pair": [
+        "require",
+        "d"
+      ],
+      "merged": "required"
+    },
+    {
+      "pair": [
+        "n",
+        "e"
+      ],
+      "merged": "ne"
+    },
+    {
+      "pair": [
+        "a",
+        "w"
+      ],
+      "merged": "aw"
+    },
+    {
+      "pair": [
+        "aw",
+        "s"
+      ],
+      "merged": "aws"
+    },
+    {
+      "pair": [
+        "a",
+        "c"
+      ],
+      "merged": "ac"
+    },
+    {
+      "pair": [
+        "e",
+        "l"
+      ],
+      "merged": "el"
+    },
+    {
+      "pair": [
+        "g",
+        "re"
+      ],
+      "merged": "gre"
+    },
+    {
+      "pair": [
+        "l",
+        "ea"
+      ],
+      "merged": "lea"
+    },
+    {
+      "pair": [
+        "lea",
+        "d"
+      ],
+      "merged": "lead"
+    },
+    {
+      "pair": [
+        "p",
+        "o"
+      ],
+      "merged": "po"
+    },
+    {
+      "pair": [
+        "v",
+        "e"
+      ],
+      "merged": "ve"
+    },
+    {
+      "pair": [
+        "u",
+        "st"
+      ],
+      "merged": "ust"
+    },
+    {
+      "pair": [
+        "w",
+        "or"
+      ],
+      "merged": "wor"
+    },
+    {
+      "pair": [
+        "wor",
+        "k"
+      ],
+      "merged": "work"
+    },
+    {
+      "pair": [
+        "t",
+        "en"
+      ],
+      "merged": "ten"
+    },
+    {
+      "pair": [
+        "u",
+        "re"
+      ],
+      "merged": "ure"
+    },
+    {
+      "pair": [
+        "w",
+        "e"
+      ],
+      "merged": "we"
+    },
+    {
+      "pair": [
+        "a",
+        "re"
+      ],
+      "merged": "are"
+    },
+    {
+      "pair": [
+        "s",
+        "en"
+      ],
+      "merged": "sen"
+    },
+    {
+      "pair": [
+        "sen",
+        "i"
+      ],
+      "merged": "seni"
+    },
+    {
+      "pair": [
+        "seni",
+        "or"
+      ],
+      "merged": "senior"
+    },
+    {
+      "pair": [
+        "require",
+        "m"
+      ],
+      "merged": "requirem"
+    },
+    {
+      "pair": [
+        "requirem",
+        "ent"
+      ],
+      "merged": "requirement"
+    },
+    {
+      "pair": [
+        "requirement",
+        "s"
+      ],
+      "merged": "requirements"
+    },
+    {
+      "pair": [
+        "5",
+        "+"
+      ],
+      "merged": "5+"
+    },
+    {
+      "pair": [
+        "d",
+        "j"
+      ],
+      "merged": "dj"
+    },
+    {
+      "pair": [
+        "dj",
+        "an"
+      ],
+      "merged": "djan"
+    },
+    {
+      "pair": [
+        "djan",
+        "go"
+      ],
+      "merged": "django"
+    },
+    {
+      "pair": [
+        "pr",
+        "o"
+      ],
+      "merged": "pro"
+    },
+    {
+      "pair": [
+        "pro",
+        "b"
+      ],
+      "merged": "prob"
+    },
+    {
+      "pair": [
+        "prob",
+        "l"
+      ],
+      "merged": "probl"
+    },
+    {
+      "pair": [
+        "probl",
+        "e"
+      ],
+      "merged": "proble"
+    },
+    {
+      "pair": [
+        "proble",
+        "m"
+      ],
+      "merged": "problem"
+    },
+    {
+      "pair": [
+        "sol",
+        "v"
+      ],
+      "merged": "solv"
+    },
+    {
+      "pair": [
+        "solv",
+        "ing"
+      ],
+      "merged": "solving"
+    },
+    {
+      "pair": [
+        "d",
+        "o"
+      ],
+      "merged": "do"
+    },
+    {
+      "pair": [
+        "do",
+        "c"
+      ],
+      "merged": "doc"
+    },
+    {
+      "pair": [
+        "doc",
+        "k"
+      ],
+      "merged": "dock"
+    },
+    {
+      "pair": [
+        "dock",
+        "er"
+      ],
+      "merged": "docker"
+    },
+    {
+      "pair": [
+        "k",
+        "u"
+      ],
+      "merged": "ku"
+    },
+    {
+      "pair": [
+        "ku",
+        "b"
+      ],
+      "merged": "kub"
+    },
+    {
+      "pair": [
+        "kub",
+        "er"
+      ],
+      "merged": "kuber"
+    },
+    {
+      "pair": [
+        "kuber",
+        "ne"
+      ],
+      "merged": "kuberne"
+    },
+    {
+      "pair": [
+        "kuberne",
+        "t"
+      ],
+      "merged": "kubernet"
+    },
+    {
+      "pair": [
+        "kubernet",
+        "es"
+      ],
+      "merged": "kubernetes"
+    },
+    {
+      "pair": [
+        "b",
+        "ac"
+      ],
+      "merged": "bac"
+    },
+    {
+      "pair": [
+        "bac",
+        "h"
+      ],
+      "merged": "bach"
+    },
+    {
+      "pair": [
+        "bach",
+        "el"
+      ],
+      "merged": "bachel"
+    },
+    {
+      "pair": [
+        "bachel",
+        "or"
+      ],
+      "merged": "bachelor"
+    },
+    {
+      "pair": [
+        "'",
+        "s"
+      ],
+      "merged": "'s"
+    },
+    {
+      "pair": [
+        "de",
+        "gre"
+      ],
+      "merged": "degre"
+    },
+    {
+      "pair": [
+        "degre",
+        "e"
+      ],
+      "merged": "degree"
+    },
+    {
+      "pair": [
+        "com",
+        "p"
+      ],
+      "merged": "comp"
+    },
+    {
+      "pair": [
+        "comp",
+        "u"
+      ],
+      "merged": "compu"
+    },
+    {
+      "pair": [
+        "compu",
+        "t"
+      ],
+      "merged": "comput"
+    },
+    {
+      "pair": [
+        "comput",
+        "er"
+      ],
+      "merged": "computer"
+    },
+    {
+      "pair": [
+        "s",
+        "c"
+      ],
+      "merged": "sc"
+    },
+    {
+      "pair": [
+        "sc",
+        "ience"
+      ],
+      "merged": "science"
+    },
+    {
+      "pair": [
+        "po",
+        "s"
+      ],
+      "merged": "pos"
+    },
+    {
+      "pair": [
+        "pos",
+        "i"
+      ],
+      "merged": "posi"
+    },
+    {
+      "pair": [
+        "posi",
+        "tion"
+      ],
+      "merged": "position"
+    },
+    {
+      "pair": [
+        "re",
+        "ac"
+      ],
+      "merged": "reac"
+    },
+    {
+      "pair": [
+        "reac",
+        "t"
+      ],
+      "merged": "react"
+    },
+    {
+      "pair": [
+        "t",
+        "y"
+      ],
+      "merged": "ty"
+    },
+    {
+      "pair": [
+        "ty",
+        "p"
+      ],
+      "merged": "typ"
+    },
+    {
+      "pair": [
+        "typ",
+        "es"
+      ],
+      "merged": "types"
+    },
+    {
+      "pair": [
+        "types",
+        "c"
+      ],
+      "merged": "typesc"
+    },
+    {
+      "pair": [
+        "typesc",
+        "r"
+      ],
+      "merged": "typescr"
+    },
+    {
+      "pair": [
+        "typescr",
+        "ip"
+      ],
+      "merged": "typescrip"
+    },
+    {
+      "pair": [
+        "typescrip",
+        "t"
+      ],
+      "merged": "typescript"
+    },
+    {
+      "pair": [
+        "j",
+        "uni"
+      ],
+      "merged": "juni"
+    },
+    {
+      "pair": [
+        "juni",
+        "or"
+      ],
+      "merged": "junior"
+    },
+    {
+      "pair": [
+        "de",
+        "ve"
+      ],
+      "merged": "deve"
+    },
+    {
+      "pair": [
+        "deve",
+        "lo"
+      ],
+      "merged": "develo"
+    },
+    {
+      "pair": [
+        "develo",
+        "per"
+      ],
+      "merged": "developer"
+    },
+    {
+      "pair": [
+        "m",
+        "ust"
+      ],
+      "merged": "must"
+    },
+    {
+      "pair": [
+        "h",
+        "a"
+      ],
+      "merged": "ha"
+    },
+    {
+      "pair": [
+        "ha",
+        "ve"
+      ],
+      "merged": "have"
+    },
+    {
+      "pair": [
+        "3",
+        "+"
+      ],
+      "merged": "3+"
+    },
+    {
+      "pair": [
+        "po",
+        "st"
+      ],
+      "merged": "post"
+    },
+    {
+      "pair": [
+        "post",
+        "gre"
+      ],
+      "merged": "postgre"
+    },
+    {
+      "pair": [
+        "postgre",
+        "s"
+      ],
+      "merged": "postgres"
+    },
+    {
+      "pair": [
+        "postgres",
+        "q"
+      ],
+      "merged": "postgresq"
+    },
+    {
+      "pair": [
+        "postgresq",
+        "l"
+      ],
+      "merged": "postgresql"
+    },
+    {
+      "pair": [
+        "re",
+        "d"
+      ],
+      "merged": "red"
+    },
+    {
+      "pair": [
+        "red",
+        "i"
+      ],
+      "merged": "redi"
+    },
+    {
+      "pair": [
+        "redi",
+        "s"
+      ],
+      "merged": "redis"
+    },
+    {
+      "pair": [
+        "lead",
+        "er"
+      ],
+      "merged": "leader"
+    },
+    {
+      "pair": [
+        "leader",
+        "s"
+      ],
+      "merged": "leaders"
+    },
+    {
+      "pair": [
+        "leaders",
+        "h"
+      ],
+      "merged": "leadersh"
+    },
+    {
+      "pair": [
+        "leadersh",
+        "ip"
+      ],
+      "merged": "leadership"
+    },
+    {
+      "pair": [
+        "t",
+        "ea"
+      ],
+      "merged": "tea"
+    },
+    {
+      "pair": [
+        "tea",
+        "m"
+      ],
+      "merged": "team"
+    },
+    {
+      "pair": [
+        "team",
+        "work"
+      ],
+      "merged": "teamwork"
+    },
+    {
+      "pair": [
+        "a",
+        "b"
+      ],
+      "merged": "ab"
+    },
+    {
+      "pair": [
+        "ab",
+        "il"
+      ],
+      "merged": "abil"
+    },
+    {
+      "pair": [
+        "abil",
+        "i"
+      ],
+      "merged": "abili"
+    },
+    {
+      "pair": [
+        "abili",
+        "ti"
+      ],
+      "merged": "abiliti"
+    },
+    {
+      "pair": [
+        "abiliti",
+        "es"
+      ],
+      "merged": "abilities"
+    },
+    {
+      "pair": [
+        "ne",
+        "e"
+      ],
+      "merged": "nee"
+    },
+    {
+      "pair": [
+        "nee",
+        "de"
+      ],
+      "merged": "neede"
+    },
+    {
+      "pair": [
+        "neede",
+        "d"
+      ],
+      "merged": "needed"
+    },
+    {
+      "pair": [
+        "st",
+        "a"
+      ],
+      "merged": "sta"
+    },
+    {
+      "pair": [
+        "sta",
+        "f"
+      ],
+      "merged": "staf"
+    },
+    {
+      "pair": [
+        "staf",
+        "f"
+      ],
+      "merged": "staff"
+    },
+    {
+      "pair": [
+        "r",
+        "ol"
+      ],
+      "merged": "rol"
+    },
+    {
+      "pair": [
+        "rol",
+        "e"
+      ],
+      "merged": "role"
+    },
+    {
+      "pair": [
+        "requi",
+        "r"
+      ],
+      "merged": "requir"
+    },
+    {
+      "pair": [
+        "requir",
+        "ing"
+      ],
+      "merged": "requiring"
+    },
+    {
+      "pair": [
+        "r",
+        "ust"
+      ],
+      "merged": "rust"
+    },
+    {
+      "pair": [
+        "exper",
+        "ti"
+      ],
+      "merged": "experti"
+    },
+    {
+      "pair": [
+        "experti",
+        "s"
+      ],
+      "merged": "expertis"
+    },
+    {
+      "pair": [
+        "expertis",
+        "e"
+      ],
+      "merged": "expertise"
+    },
+    {
+      "pair": [
+        "pr",
+        "of"
+      ],
+      "merged": "prof"
+    },
+    {
+      "pair": [
+        "prof",
+        "i"
+      ],
+      "merged": "profi"
+    },
+    {
+      "pair": [
+        "profi",
+        "c"
+      ],
+      "merged": "profic"
+    },
+    {
+      "pair": [
+        "profic",
+        "ienc"
+      ],
+      "merged": "proficienc"
+    },
+    {
+      "pair": [
+        "proficienc",
+        "y"
+      ],
+      "merged": "proficiency"
+    },
+    {
+      "pair": [
+        "py",
+        "t"
+      ],
+      "merged": "pyt"
+    },
+    {
+      "pair": [
+        "pyt",
+        "or"
+      ],
+      "merged": "pytor"
+    },
+    {
+      "pair": [
+        "pytor",
+        "c"
+      ],
+      "merged": "pytorc"
+    },
+    {
+      "pair": [
+        "pytorc",
+        "h"
+      ],
+      "merged": "pytorch"
+    },
+    {
+      "pair": [
+        "ten",
+        "s"
+      ],
+      "merged": "tens"
+    },
+    {
+      "pair": [
+        "tens",
+        "or"
+      ],
+      "merged": "tensor"
+    },
+    {
+      "pair": [
+        "tensor",
+        "f"
+      ],
+      "merged": "tensorf"
+    },
+    {
+      "pair": [
+        "tensorf",
+        "lo"
+      ],
+      "merged": "tensorflo"
+    },
+    {
+      "pair": [
+        "tensorflo",
+        "w"
+      ],
+      "merged": "tensorflow"
+    },
+    {
+      "pair": [
+        "m",
+        "l"
+      ],
+      "merged": "ml"
+    },
+    {
+      "pair": [
+        "2",
+        "+"
+      ],
+      "merged": "2+"
+    },
+    {
+      "pair": [
+        "c",
+        "lo"
+      ],
+      "merged": "clo"
+    },
+    {
+      "pair": [
+        "clo",
+        "u"
+      ],
+      "merged": "clou"
+    },
+    {
+      "pair": [
+        "clou",
+        "d"
+      ],
+      "merged": "cloud"
+    },
+    {
+      "pair": [
+        "g",
+        "c"
+      ],
+      "merged": "gc"
+    },
+    {
+      "pair": [
+        "gc",
+        "p"
+      ],
+      "merged": "gcp"
+    },
+    {
+      "pair": [
+        "a",
+        "z"
+      ],
+      "merged": "az"
+    },
+    {
+      "pair": [
+        "az",
+        "ure"
+      ],
+      "merged": "azure"
+    },
+    {
+      "pair": [
+        "ex",
+        "c"
+      ],
+      "merged": "exc"
+    },
+    {
+      "pair": [
+        "exc",
+        "el"
+      ],
+      "merged": "excel"
+    },
+    {
+      "pair": [
+        "excel",
+        "l"
+      ],
+      "merged": "excell"
+    },
+    {
+      "pair": [
+        "excell",
+        "ent"
+      ],
+      "merged": "excellent"
+    },
+    {
+      "pair": [
+        "w",
+        "r"
+      ],
+      "merged": "wr"
+    },
+    {
+      "pair": [
+        "wr",
+        "i"
+      ],
+      "merged": "wri"
+    },
+    {
+      "pair": [
+        "wri",
+        "t"
+      ],
+      "merged": "writ"
+    },
+    {
+      "pair": [
+        "writ",
+        "ten"
+      ],
+      "merged": "written"
+    },
+    {
+      "pair": [
+        "v",
+        "er"
+      ],
+      "merged": "ver"
+    },
+    {
+      "pair": [
+        "ver",
+        "b"
+      ],
+      "merged": "verb"
+    },
+    {
+      "pair": [
+        "verb",
+        "al"
+      ],
+      "merged": "verbal"
+    },
+    {
+      "pair": [
+        "pr",
+        "in"
+      ],
+      "merged": "prin"
+    },
+    {
+      "pair": [
+        "prin",
+        "c"
+      ],
+      "merged": "princ"
+    },
+    {
+      "pair": [
+        "princ",
+        "ip"
+      ],
+      "merged": "princip"
+    },
+    {
+      "pair": [
+        "princip",
+        "al"
+      ],
+      "merged": "principal"
+    },
+    {
+      "pair": [
+        "1",
+        "0"
+      ],
+      "merged": "10"
+    },
+    {
+      "pair": [
+        "10",
+        "+"
+      ],
+      "merged": "10+"
+    },
+    {
+      "pair": [
+        "sol",
+        "i"
+      ],
+      "merged": "soli"
+    },
+    {
+      "pair": [
+        "soli",
+        "d"
+      ],
+      "merged": "solid"
+    },
+    {
+      "pair": [
+        "un",
+        "d"
+      ],
+      "merged": "und"
+    },
+    {
+      "pair": [
+        "und",
+        "er"
+      ],
+      "merged": "under"
+    },
+    {
+      "pair": [
+        "under",
+        "st"
+      ],
+      "merged": "underst"
+    },
+    {
+      "pair": [
+        "underst",
+        "and"
+      ],
+      "merged": "understand"
+    },
+    {
+      "pair": [
+        "understand",
+        "ing"
+      ],
+      "merged": "understanding"
+    },
+    {
+      "pair": [
+        "al",
+        "g"
+      ],
+      "merged": "alg"
+    },
+    {
+      "pair": [
+        "alg",
+        "or"
+      ],
+      "merged": "algor"
+    },
+    {
+      "pair": [
+        "algor",
+        "ith"
+      ],
+      "merged": "algorith"
+    },
+    {
+      "pair": [
+        "algorith",
+        "m"
+      ],
+      "merged": "algorithm"
+    },
+    {
+      "pair": [
+        "algorithm",
+        "s"
+      ],
+      "merged": "algorithms"
+    },
+    {
+      "pair": [
+        "d",
+        "a"
+      ],
+      "merged": "da"
+    },
+    {
+      "pair": [
+        "da",
+        "t"
+      ],
+      "merged": "dat"
+    },
+    {
+      "pair": [
+        "dat",
+        "a"
+      ],
+      "merged": "data"
+    },
+    {
+      "pair": [
+        "str",
+        "u"
+      ],
+      "merged": "stru"
+    },
+    {
+      "pair": [
+        "stru",
+        "c"
+      ],
+      "merged": "struc"
+    },
+    {
+      "pair": [
+        "struc",
+        "t"
+      ],
+      "merged": "struct"
+    },
+    {
+      "pair": [
+        "struct",
+        "ure"
+      ],
+      "merged": "structure"
+    },
+    {
+      "pair": [
+        "structure",
+        "s"
+      ],
+      "merged": "structures"
+    }
+  ],
+  "vocab": [
+    "dat",
+    "th",
+    "eng",
+    "look",
+    "problem",
+    "s",
+    "staf",
+    "abil",
+    "python",
+    "proficiency",
+    "10+",
+    "w",
+    "ha",
+    "prob",
+    "rol",
+    "ol",
+    "leaders",
+    "work",
+    "kubernet",
+    "requiring",
+    "tensorflow",
+    "proble",
+    "re",
+    "pr",
+    "strong",
+    "typescr",
+    "gc",
+    "bach",
+    "prin",
+    "degree",
+    "tens",
+    "must",
+    "c",
+    "sol",
+    "ten",
+    "skil",
+    "0",
+    "3+",
+    "typescrip",
+    "under",
+    "red",
+    "redi",
+    "stru",
+    "compu",
+    "junior",
+    "struc",
+    "ust",
+    "en",
+    "q",
+    "2",
+    "postgres",
+    "leadership",
+    "expertis",
+    "1",
+    "clou",
+    "a",
+    "django",
+    "structure",
+    "structures",
+    "il",
+    "com",
+    "gcp",
+    "ip",
+    "and",
+    "typescript",
+    "h",
+    "experience",
+    "el",
+    "understand",
+    "engineer",
+    "requirem",
+    "staff",
+    "comput",
+    "postgresql",
+    "2+",
+    "understanding",
+    "redis",
+    "l",
+    "z",
+    "comm",
+    "needed",
+    "engin",
+    "kuber",
+    "develo",
+    "proficienc",
+    "3",
+    "reac",
+    "al",
+    "verbal",
+    "leader",
+    "position",
+    "prof",
+    "expertise",
+    "tensorflo",
+    "solid",
+    "we",
+    "pyt",
+    "requ",
+    "ml",
+    "n",
+    "'",
+    "lo",
+    "underst",
+    "senior",
+    "docker",
+    "ent",
+    "algorithm",
+    "solv",
+    "uni",
+    "i",
+    "loo",
+    "team",
+    "sc",
+    "of",
+    "go",
+    "wr",
+    "dj",
+    "tion",
+    ",",
+    "b",
+    "st",
+    "posi",
+    ":",
+    "lead",
+    "kub",
+    "aws",
+    "de",
+    "bachel",
+    "ac",
+    "postgre",
+    "ver",
+    "requir",
+    "co",
+    "d",
+    "djan",
+    "wor",
+    "neede",
+    "er",
+    "v",
+    "po",
+    "teamwork",
+    "communication",
+    "rust",
+    "m",
+    "algor",
+    "engine",
+    "5",
+    "princ",
+    "es",
+    "yea",
+    "u",
+    "ure",
+    "excell",
+    "post",
+    "struct",
+    "f",
+    "lea",
+    "principal",
+    "cloud",
+    "abiliti",
+    "require",
+    "kubernetes",
+    "o",
+    "solving",
+    "requirement",
+    "experti",
+    "written",
+    "py",
+    "on",
+    "year",
+    "stron",
+    "communica",
+    "are",
+    "5+",
+    "probl",
+    "ienc",
+    "str",
+    "'s",
+    "r",
+    "looking",
+    "ab",
+    "science",
+    "deve",
+    "wri",
+    "excel",
+    "writ",
+    "communi",
+    "ti",
+    "seni",
+    "do",
+    "years",
+    "ve",
+    "clo",
+    "comp",
+    "pytorch",
+    "sen",
+    "sta",
+    "tensor",
+    "have",
+    "azure",
+    "developer",
+    "az",
+    "ing",
+    "k",
+    "y",
+    "un",
+    "tea",
+    "react",
+    "10",
+    "soli",
+    "sk",
+    "in",
+    "alg",
+    "ea",
+    "x",
+    "requirements",
+    "role",
+    "princip",
+    "with",
+    "ience",
+    "pyth",
+    "ku",
+    "pos",
+    "leadersh",
+    "verb",
+    "abili",
+    "t",
+    "exper",
+    "gre",
+    "pytorc",
+    "requi",
+    "pro",
+    "computer",
+    "ty",
+    "pytor",
+    "+",
+    "da",
+    "g",
+    "communic",
+    "ne",
+    "per",
+    "excellent",
+    "juni",
+    "req",
+    "doc",
+    "required",
+    "kuberne",
+    "bachelor",
+    "degre",
+    "profi",
+    "or",
+    "profic",
+    "tensorf",
+    "e",
+    "types",
+    "data",
+    "skills",
+    "typesc",
+    "dock",
+    "skill",
+    "j",
+    "exc",
+    "ith",
+    "an",
+    "postgresq",
+    "nee",
+    "und",
+    "algorith",
+    "p",
+    "typ",
+    "for",
+    "ien",
+    "aw",
+    "bac",
+    "ex",
+    "abilities",
+    "algorithms"
+  ]
+}
