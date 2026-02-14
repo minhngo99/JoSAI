@@ -1,0 +1,6562 @@
+{
+  "vocab_size": 5000,
+  "lowercase": true,
+  "token2id": {
+    "[PAD]": 0,
+    "[UNK]": 1,
+    "[BOS]": 2,
+    "[EOS]": 3,
+    "[SEP]": 4,
+    "[CLS]": 5,
+    "[MASK]": 6,
+    "+": 7,
+    ".": 8,
+    "2": 9,
+    "4": 10,
+    "5": 11,
+    "6": 12,
+    "a": 13,
+    "ability": 14,
+    "ac": 15,
+    "access": 16,
+    "accessi": 17,
+    "accessibility": 18,
+    "acco": 19,
+    "accou": 20,
+    "accoun": 21,
+    "account": 22,
+    "ach": 23,
+    "ack": 24,
+    "ado": 25,
+    "adob": 26,
+    "adobe": 27,
+    "ag": 28,
+    "agil": 29,
+    "agile": 30,
+    "ai": 31,
+    "air": 32,
+    "airflow": 33,
+    "ak": 34,
+    "ake": 35,
+    "al": 36,
+    "alg": 37,
+    "algor": 38,
+    "algorit": 39,
+    "algorith": 40,
+    "algorithms": 41,
+    "an": 42,
+    "anal": 43,
+    "analyst": 44,
+    "and": 45,
+    "andro": 46,
+    "android": 47,
+    "ap": 48,
+    "apach": 49,
+    "apache": 50,
+    "api": 51,
+    "app": 52,
+    "apple": 53,
+    "ar": 54,
+    "are": 55,
+    "ark": 56,
+    "art": 57,
+    "artic": 58,
+    "articl": 59,
+    "articles": 60,
+    "ass": 61,
+    "assess": 62,
+    "assessment": 63,
+    "ast": 64,
+    "at": 65,
+    "ate": 66,
+    "ation": 67,
+    "ations": 68,
+    "aut": 69,
+    "autom": 70,
+    "automation": 71,
+    "aw": 72,
+    "aws": 73,
+    "b": 74,
+    "b2": 75,
+    "b2b": 76,
+    "back": 77,
+    "backend": 78,
+    "big": 79,
+    "bil": 80,
+    "bility": 81,
+    "blog": 82,
+    "br": 83,
+    "brand": 84,
+    "bud": 85,
+    "budg": 86,
+    "budget": 87,
+    "bus": 88,
+    "busin": 89,
+    "business": 90,
+    "c": 91,
+    "c+": 92,
+    "c++": 93,
+    "ca": 94,
+    "cal": 95,
+    "calend": 96,
+    "calendar": 97,
+    "camp": 98,
+    "campa": 99,
+    "campaign": 100,
+    "campaigns": 101,
+    "care": 102,
+    "cd": 103,
+    "ce": 104,
+    "cess": 105,
+    "ch": 106,
+    "cha": 107,
+    "chain": 108,
+    "ci": 109,
+    "cial": 110,
+    "cl": 111,
+    "class": 112,
+    "classro": 113,
+    "classroom": 114,
+    "clin": 115,
+    "clinical": 116,
+    "clo": 117,
+    "cloud": 118,
+    "co": 119,
+    "code": 120,
+    "comp": 121,
+    "compo": 122,
+    "compose": 123,
+    "comput": 124,
+    "computer": 125,
+    "cont": 126,
+    "content": 127,
+    "copy": 128,
+    "copywr": 129,
+    "copywriting": 130,
+    "cr": 131,
+    "css": 132,
+    "ct": 133,
+    "cu": 134,
+    "cur": 135,
+    "curr": 136,
+    "curric": 137,
+    "curricul": 138,
+    "curriculu": 139,
+    "curriculum": 140,
+    "d": 141,
+    "dast": 142,
+    "dat": 143,
+    "data": 144,
+    "datab": 145,
+    "databa": 146,
+    "databas": 147,
+    "databases": 148,
+    "de": 149,
+    "dee": 150,
+    "deep": 151,
+    "del": 152,
+    "deli": 153,
+    "deliv": 154,
+    "deliver": 155,
+    "delivery": 156,
+    "dep": 157,
+    "deplo": 158,
+    "deploy": 159,
+    "deployed": 160,
+    "deployment": 161,
+    "des": 162,
+    "desig": 163,
+    "design": 164,
+    "designer": 165,
+    "dev": 166,
+    "deve": 167,
+    "develo": 168,
+    "develop": 169,
+    "developer": 170,
+    "development": 171,
+    "devop": 172,
+    "devops": 173,
+    "di": 174,
+    "dig": 175,
+    "digital": 176,
+    "distr": 177,
+    "distri": 178,
+    "distrib": 179,
+    "distribut": 180,
+    "distributed": 181,
+    "dj": 182,
+    "djan": 183,
+    "django": 184,
+    "do": 185,
+    "doc": 186,
+    "dock": 187,
+    "docker": 188,
+    "docu": 189,
+    "document": 190,
+    "documentation": 191,
+    "e": 192,
+    "ed": 193,
+    "editor": 194,
+    "editori": 195,
+    "editorial": 196,
+    "em": 197,
+    "emp": 198,
+    "emplo": 199,
+    "employe": 200,
+    "employee": 201,
+    "emr": 202,
+    "en": 203,
+    "ence": 204,
+    "end": 205,
+    "eng": 206,
+    "engine": 207,
+    "engineer": 208,
+    "ent": 209,
+    "enter": 210,
+    "enterp": 211,
+    "enterpri": 212,
+    "enterprise": 213,
+    "er": 214,
+    "ern": 215,
+    "es": 216,
+    "ess": 217,
+    "et": 218,
+    "etl": 219,
+    "ex": 220,
+    "exce": 221,
+    "excel": 222,
+    "exe": 223,
+    "exec": 224,
+    "execut": 225,
+    "executive": 226,
+    "exer": 227,
+    "exerci": 228,
+    "exercise": 229,
+    "exper": 230,
+    "experi": 231,
+    "experience": 232,
+    "f": 233,
+    "figma": 234,
+    "fin": 235,
+    "finan": 236,
+    "financial": 237,
+    "flow": 238,
+    "fo": 239,
+    "for": 240,
+    "fore": 241,
+    "forec": 242,
+    "forecast": 243,
+    "forecasting": 244,
+    "fr": 245,
+    "front": 246,
+    "frontend": 247,
+    "ft": 248,
+    "ful": 249,
+    "full": 250,
+    "g": 251,
+    "gc": 252,
+    "gcp": 253,
+    "go": 254,
+    "golan": 255,
+    "golang": 256,
+    "gra": 257,
+    "grad": 258,
+    "grading": 259,
+    "gradu": 260,
+    "graduate": 261,
+    "graf": 262,
+    "grafan": 263,
+    "grafana": 264,
+    "graph": 265,
+    "graphic": 266,
+    "graphql": 267,
+    "h": 268,
+    "ho": 269,
+    "hosp": 270,
+    "hospital": 271,
+    "hr": 272,
+    "i": 273,
+    "ic": 274,
+    "ical": 275,
+    "id": 276,
+    "ident": 277,
+    "identity": 278,
+    "ig": 279,
+    "igm": 280,
+    "igma": 281,
+    "ign": 282,
+    "il": 283,
+    "ill": 284,
+    "illu": 285,
+    "illustr": 286,
+    "illustration": 287,
+    "im": 288,
+    "impro": 289,
+    "improve": 290,
+    "improvement": 291,
+    "in": 292,
+    "inci": 293,
+    "incid": 294,
+    "incident": 295,
+    "ine": 296,
+    "inf": 297,
+    "infra": 298,
+    "infrastructu": 299,
+    "infrastructure": 300,
+    "ing": 301,
+    "int": 302,
+    "intern": 303,
+    "interns": 304,
+    "internsh": 305,
+    "internship": 306,
+    "io": 307,
+    "ion": 308,
+    "ios": 309,
+    "ip": 310,
+    "ist": 311,
+    "it": 312,
+    "ital": 313,
+    "iting": 314,
+    "itor": 315,
+    "ity": 316,
+    "ive": 317,
+    "j": 318,
+    "ja": 319,
+    "jav": 320,
+    "java": 321,
+    "je": 322,
+    "ject": 323,
+    "jen": 324,
+    "jenk": 325,
+    "jenkin": 326,
+    "jenkins": 327,
+    "jet": 328,
+    "jetp": 329,
+    "jetpack": 330,
+    "js": 331,
+    "k": 332,
+    "kot": 333,
+    "kotlin": 334,
+    "ku": 335,
+    "kub": 336,
+    "kubern": 337,
+    "kubernet": 338,
+    "kubernetes": 339,
+    "l": 340,
+    "lan": 341,
+    "lat": 342,
+    "laten": 343,
+    "latenc": 344,
+    "latency": 345,
+    "le": 346,
+    "lean": 347,
+    "lear": 348,
+    "learn": 349,
+    "learning": 350,
+    "leet": 351,
+    "leetcode": 352,
+    "less": 353,
+    "lesson": 354,
+    "lin": 355,
+    "lo": 356,
+    "log": 357,
+    "logist": 358,
+    "logistic": 359,
+    "logistics": 360,
+    "low": 361,
+    "m": 362,
+    "mach": 363,
+    "machine": 364,
+    "man": 365,
+    "manag": 366,
+    "manage": 367,
+    "management": 368,
+    "manager": 369,
+    "mapp": 370,
+    "mapping": 371,
+    "mark": 372,
+    "market": 373,
+    "marketing": 374,
+    "med": 375,
+    "medi": 376,
+    "media": 377,
+    "ment": 378,
+    "mic": 379,
+    "micro": 380,
+    "micros": 381,
+    "microser": 382,
+    "microserv": 383,
+    "microservic": 384,
+    "microservices": 385,
+    "ml": 386,
+    "mo": 387,
+    "mobil": 388,
+    "mobile": 389,
+    "model": 390,
+    "modeling": 391,
+    "models": 392,
+    "mon": 393,
+    "mongo": 394,
+    "mongod": 395,
+    "mongodb": 396,
+    "monitor": 397,
+    "monitoring": 398,
+    "mp": 399,
+    "ms": 400,
+    "mv": 401,
+    "mvv": 402,
+    "mvvm": 403,
+    "n": 404,
+    "ne": 405,
+    "ner": 406,
+    "new": 407,
+    "nex": 408,
+    "next": 409,
+    "nl": 410,
+    "nlp": 411,
+    "no": 412,
+    "node": 413,
+    "nu": 414,
+    "nur": 415,
+    "nurse": 416,
+    "o": 417,
+    "ob": 418,
+    "object": 419,
+    "objective": 420,
+    "om": 421,
+    "on": 422,
+    "onb": 423,
+    "onbo": 424,
+    "onboar": 425,
+    "onboard": 426,
+    "onboarding": 427,
+    "ont": 428,
+    "op": 429,
+    "oper": 430,
+    "operations": 431,
+    "opt": 432,
+    "optim": 433,
+    "optimi": 434,
+    "optimiz": 435,
+    "optimization": 436,
+    "or": 437,
+    "ot": 438,
+    "p": 439,
+    "part": 440,
+    "partner": 441,
+    "pat": 442,
+    "pati": 443,
+    "patient": 444,
+    "pen": 445,
+    "penet": 446,
+    "penetr": 447,
+    "penetration": 448,
+    "per": 449,
+    "perfor": 450,
+    "performan": 451,
+    "performance": 452,
+    "ph": 453,
+    "phy": 454,
+    "phys": 455,
+    "physical": 456,
+    "pip": 457,
+    "pipe": 458,
+    "pipel": 459,
+    "pipelin": 460,
+    "pipeline": 461,
+    "pipelines": 462,
+    "plan": 463,
+    "plans": 464,
+    "pmp": 465,
+    "po": 466,
+    "post": 467,
+    "postg": 468,
+    "postgres": 469,
+    "postgresql": 470,
+    "pro": 471,
+    "process": 472,
+    "prod": 473,
+    "product": 474,
+    "production": 475,
+    "progra": 476,
+    "program": 477,
+    "programm": 478,
+    "programming": 479,
+    "project": 480,
+    "prom": 481,
+    "prome": 482,
+    "prometh": 483,
+    "promethe": 484,
+    "prometheus": 485,
+    "py": 486,
+    "pyt": 487,
+    "pyth": 488,
+    "python": 489,
+    "pytor": 490,
+    "pytorch": 491,
+    "q": 492,
+    "ql": 493,
+    "qu": 494,
+    "quot": 495,
+    "quota": 496,
+    "r": 497,
+    "ra": 498,
+    "re": 499,
+    "reac": 500,
+    "react": 501,
+    "recr": 502,
+    "recru": 503,
+    "recruiting": 504,
+    "reg": 505,
+    "regist": 506,
+    "register": 507,
+    "registered": 508,
+    "reh": 509,
+    "reha": 510,
+    "rehabil": 511,
+    "rehabilit": 512,
+    "rehabilitation": 513,
+    "rel": 514,
+    "relations": 515,
+    "reli": 516,
+    "reliability": 517,
+    "rep": 518,
+    "repor": 519,
+    "reporting": 520,
+    "req": 521,
+    "requi": 522,
+    "require": 523,
+    "requirement": 524,
+    "requirements": 525,
+    "res": 526,
+    "rest": 527,
+    "rev": 528,
+    "reven": 529,
+    "revenu": 530,
+    "revenue": 531,
+    "ri": 532,
+    "ro": 533,
+    "ru": 534,
+    "rust": 535,
+    "s": 536,
+    "sal": 537,
+    "sales": 538,
+    "salesfor": 539,
+    "salesforce": 540,
+    "sast": 541,
+    "sci": 542,
+    "science": 543,
+    "sd": 544,
+    "sdk": 545,
+    "se": 546,
+    "secur": 547,
+    "security": 548,
+    "sen": 549,
+    "seni": 550,
+    "senior": 551,
+    "seo": 552,
+    "si": 553,
+    "sigma": 554,
+    "sit": 555,
+    "site": 556,
+    "six": 557,
+    "sno": 558,
+    "snow": 559,
+    "snowf": 560,
+    "snowfl": 561,
+    "snowflake": 562,
+    "so": 563,
+    "social": 564,
+    "soft": 565,
+    "software": 566,
+    "sp": 567,
+    "spark": 568,
+    "sql": 569,
+    "sre": 570,
+    "ss": 571,
+    "st": 572,
+    "stack": 573,
+    "stake": 574,
+    "stakeho": 575,
+    "stakehol": 576,
+    "stakehold": 577,
+    "stakeholder": 578,
+    "str": 579,
+    "strate": 580,
+    "strateg": 581,
+    "strategy": 582,
+    "struct": 583,
+    "structu": 584,
+    "structures": 585,
+    "stud": 586,
+    "student": 587,
+    "su": 588,
+    "sup": 589,
+    "supp": 590,
+    "suppl": 591,
+    "supply": 592,
+    "sw": 593,
+    "swi": 594,
+    "swift": 595,
+    "swiftui": 596,
+    "syst": 597,
+    "syste": 598,
+    "systems": 599,
+    "t": 600,
+    "ta": 601,
+    "tail": 602,
+    "tailw": 603,
+    "tailwin": 604,
+    "tailwind": 605,
+    "tailwindcss": 606,
+    "tal": 607,
+    "talent": 608,
+    "te": 609,
+    "teach": 610,
+    "teacher": 611,
+    "ten": 612,
+    "tens": 613,
+    "tensor": 614,
+    "tensorflow": 615,
+    "ter": 616,
+    "terra": 617,
+    "terrafor": 618,
+    "terraform": 619,
+    "tes": 620,
+    "testing": 621,
+    "th": 622,
+    "ther": 623,
+    "therapi": 624,
+    "therapist": 625,
+    "ting": 626,
+    "tri": 627,
+    "triag": 628,
+    "triage": 629,
+    "ty": 630,
+    "typ": 631,
+    "types": 632,
+    "typescr": 633,
+    "typescrip": 634,
+    "typescript": 635,
+    "u": 636,
+    "uat": 637,
+    "uct": 638,
+    "ud": 639,
+    "ui": 640,
+    "uik": 641,
+    "uikit": 642,
+    "ul": 643,
+    "us": 644,
+    "ut": 645,
+    "v": 646,
+    "var": 647,
+    "vari": 648,
+    "varian": 649,
+    "variance": 650,
+    "ve": 651,
+    "vi": 652,
+    "vis": 653,
+    "vision": 654,
+    "visu": 655,
+    "visual": 656,
+    "vul": 657,
+    "vulner": 658,
+    "vulnerability": 659,
+    "w": 660,
+    "ware": 661,
+    "wareho": 662,
+    "warehous": 663,
+    "warehousing": 664,
+    "wat": 665,
+    "water": 666,
+    "waterf": 667,
+    "waterfal": 668,
+    "waterfall": 669,
+    "we": 670,
+    "web": 671,
+    "wr": 672,
+    "writ": 673,
+    "writer": 674,
+    "x": 675,
+    "xcode": 676,
+    "y": 677,
+    "ye": 678,
+    "year": 679,
+    "years": 680,
+    "yst": 681,
+    "z": 682
+  },
+  "id2token": {
+    "0": "[PAD]",
+    "1": "[UNK]",
+    "2": "[BOS]",
+    "3": "[EOS]",
+    "4": "[SEP]",
+    "5": "[CLS]",
+    "6": "[MASK]",
+    "7": "+",
+    "8": ".",
+    "9": "2",
+    "10": "4",
+    "11": "5",
+    "12": "6",
+    "13": "a",
+    "14": "ability",
+    "15": "ac",
+    "16": "access",
+    "17": "accessi",
+    "18": "accessibility",
+    "19": "acco",
+    "20": "accou",
+    "21": "accoun",
+    "22": "account",
+    "23": "ach",
+    "24": "ack",
+    "25": "ado",
+    "26": "adob",
+    "27": "adobe",
+    "28": "ag",
+    "29": "agil",
+    "30": "agile",
+    "31": "ai",
+    "32": "air",
+    "33": "airflow",
+    "34": "ak",
+    "35": "ake",
+    "36": "al",
+    "37": "alg",
+    "38": "algor",
+    "39": "algorit",
+    "40": "algorith",
+    "41": "algorithms",
+    "42": "an",
+    "43": "anal",
+    "44": "analyst",
+    "45": "and",
+    "46": "andro",
+    "47": "android",
+    "48": "ap",
+    "49": "apach",
+    "50": "apache",
+    "51": "api",
+    "52": "app",
+    "53": "apple",
+    "54": "ar",
+    "55": "are",
+    "56": "ark",
+    "57": "art",
+    "58": "artic",
+    "59": "articl",
+    "60": "articles",
+    "61": "ass",
+    "62": "assess",
+    "63": "assessment",
+    "64": "ast",
+    "65": "at",
+    "66": "ate",
+    "67": "ation",
+    "68": "ations",
+    "69": "aut",
+    "70": "autom",
+    "71": "automation",
+    "72": "aw",
+    "73": "aws",
+    "74": "b",
+    "75": "b2",
+    "76": "b2b",
+    "77": "back",
+    "78": "backend",
+    "79": "big",
+    "80": "bil",
+    "81": "bility",
+    "82": "blog",
+    "83": "br",
+    "84": "brand",
+    "85": "bud",
+    "86": "budg",
+    "87": "budget",
+    "88": "bus",
+    "89": "busin",
+    "90": "business",
+    "91": "c",
+    "92": "c+",
+    "93": "c++",
+    "94": "ca",
+    "95": "cal",
+    "96": "calend",
+    "97": "calendar",
+    "98": "camp",
+    "99": "campa",
+    "100": "campaign",
+    "101": "campaigns",
+    "102": "care",
+    "103": "cd",
+    "104": "ce",
+    "105": "cess",
+    "106": "ch",
+    "107": "cha",
+    "108": "chain",
+    "109": "ci",
+    "110": "cial",
+    "111": "cl",
+    "112": "class",
+    "113": "classro",
+    "114": "classroom",
+    "115": "clin",
+    "116": "clinical",
+    "117": "clo",
+    "118": "cloud",
+    "119": "co",
+    "120": "code",
+    "121": "comp",
+    "122": "compo",
+    "123": "compose",
+    "124": "comput",
+    "125": "computer",
+    "126": "cont",
+    "127": "content",
+    "128": "copy",
+    "129": "copywr",
+    "130": "copywriting",
+    "131": "cr",
+    "132": "css",
+    "133": "ct",
+    "134": "cu",
+    "135": "cur",
+    "136": "curr",
+    "137": "curric",
+    "138": "curricul",
+    "139": "curriculu",
+    "140": "curriculum",
+    "141": "d",
+    "142": "dast",
+    "143": "dat",
+    "144": "data",
+    "145": "datab",
+    "146": "databa",
+    "147": "databas",
+    "148": "databases",
+    "149": "de",
+    "150": "dee",
+    "151": "deep",
+    "152": "del",
+    "153": "deli",
+    "154": "deliv",
+    "155": "deliver",
+    "156": "delivery",
+    "157": "dep",
+    "158": "deplo",
+    "159": "deploy",
+    "160": "deployed",
+    "161": "deployment",
+    "162": "des",
+    "163": "desig",
+    "164": "design",
+    "165": "designer",
+    "166": "dev",
+    "167": "deve",
+    "168": "develo",
+    "169": "develop",
+    "170": "developer",
+    "171": "development",
+    "172": "devop",
+    "173": "devops",
+    "174": "di",
+    "175": "dig",
+    "176": "digital",
+    "177": "distr",
+    "178": "distri",
+    "179": "distrib",
+    "180": "distribut",
+    "181": "distributed",
+    "182": "dj",
+    "183": "djan",
+    "184": "django",
+    "185": "do",
+    "186": "doc",
+    "187": "dock",
+    "188": "docker",
+    "189": "docu",
+    "190": "document",
+    "191": "documentation",
+    "192": "e",
+    "193": "ed",
+    "194": "editor",
+    "195": "editori",
+    "196": "editorial",
+    "197": "em",
+    "198": "emp",
+    "199": "emplo",
+    "200": "employe",
+    "201": "employee",
+    "202": "emr",
+    "203": "en",
+    "204": "ence",
+    "205": "end",
+    "206": "eng",
+    "207": "engine",
+    "208": "engineer",
+    "209": "ent",
+    "210": "enter",
+    "211": "enterp",
+    "212": "enterpri",
+    "213": "enterprise",
+    "214": "er",
+    "215": "ern",
+    "216": "es",
+    "217": "ess",
+    "218": "et",
+    "219": "etl",
+    "220": "ex",
+    "221": "exce",
+    "222": "excel",
+    "223": "exe",
+    "224": "exec",
+    "225": "execut",
+    "226": "executive",
+    "227": "exer",
+    "228": "exerci",
+    "229": "exercise",
+    "230": "exper",
+    "231": "experi",
+    "232": "experience",
+    "233": "f",
+    "234": "figma",
+    "235": "fin",
+    "236": "finan",
+    "237": "financial",
+    "238": "flow",
+    "239": "fo",
+    "240": "for",
+    "241": "fore",
+    "242": "forec",
+    "243": "forecast",
+    "244": "forecasting",
+    "245": "fr",
+    "246": "front",
+    "247": "frontend",
+    "248": "ft",
+    "249": "ful",
+    "250": "full",
+    "251": "g",
+    "252": "gc",
+    "253": "gcp",
+    "254": "go",
+    "255": "golan",
+    "256": "golang",
+    "257": "gra",
+    "258": "grad",
+    "259": "grading",
+    "260": "gradu",
+    "261": "graduate",
+    "262": "graf",
+    "263": "grafan",
+    "264": "grafana",
+    "265": "graph",
+    "266": "graphic",
+    "267": "graphql",
+    "268": "h",
+    "269": "ho",
+    "270": "hosp",
+    "271": "hospital",
+    "272": "hr",
+    "273": "i",
+    "274": "ic",
+    "275": "ical",
+    "276": "id",
+    "277": "ident",
+    "278": "identity",
+    "279": "ig",
+    "280": "igm",
+    "281": "igma",
+    "282": "ign",
+    "283": "il",
+    "284": "ill",
+    "285": "illu",
+    "286": "illustr",
+    "287": "illustration",
+    "288": "im",
+    "289": "impro",
+    "290": "improve",
+    "291": "improvement",
+    "292": "in",
+    "293": "inci",
+    "294": "incid",
+    "295": "incident",
+    "296": "ine",
+    "297": "inf",
+    "298": "infra",
+    "299": "infrastructu",
+    "300": "infrastructure",
+    "301": "ing",
+    "302": "int",
+    "303": "intern",
+    "304": "interns",
+    "305": "internsh",
+    "306": "internship",
+    "307": "io",
+    "308": "ion",
+    "309": "ios",
+    "310": "ip",
+    "311": "ist",
+    "312": "it",
+    "313": "ital",
+    "314": "iting",
+    "315": "itor",
+    "316": "ity",
+    "317": "ive",
+    "318": "j",
+    "319": "ja",
+    "320": "jav",
+    "321": "java",
+    "322": "je",
+    "323": "ject",
+    "324": "jen",
+    "325": "jenk",
+    "326": "jenkin",
+    "327": "jenkins",
+    "328": "jet",
+    "329": "jetp",
+    "330": "jetpack",
+    "331": "js",
+    "332": "k",
+    "333": "kot",
+    "334": "kotlin",
+    "335": "ku",
+    "336": "kub",
+    "337": "kubern",
+    "338": "kubernet",
+    "339": "kubernetes",
+    "340": "l",
+    "341": "lan",
+    "342": "lat",
+    "343": "laten",
+    "344": "latenc",
+    "345": "latency",
+    "346": "le",
+    "347": "lean",
+    "348": "lear",
+    "349": "learn",
+    "350": "learning",
+    "351": "leet",
+    "352": "leetcode",
+    "353": "less",
+    "354": "lesson",
+    "355": "lin",
+    "356": "lo",
+    "357": "log",
+    "358": "logist",
+    "359": "logistic",
+    "360": "logistics",
+    "361": "low",
+    "362": "m",
+    "363": "mach",
+    "364": "machine",
+    "365": "man",
+    "366": "manag",
+    "367": "manage",
+    "368": "management",
+    "369": "manager",
+    "370": "mapp",
+    "371": "mapping",
+    "372": "mark",
+    "373": "market",
+    "374": "marketing",
+    "375": "med",
+    "376": "medi",
+    "377": "media",
+    "378": "ment",
+    "379": "mic",
+    "380": "micro",
+    "381": "micros",
+    "382": "microser",
+    "383": "microserv",
+    "384": "microservic",
+    "385": "microservices",
+    "386": "ml",
+    "387": "mo",
+    "388": "mobil",
+    "389": "mobile",
+    "390": "model",
+    "391": "modeling",
+    "392": "models",
+    "393": "mon",
+    "394": "mongo",
+    "395": "mongod",
+    "396": "mongodb",
+    "397": "monitor",
+    "398": "monitoring",
+    "399": "mp",
+    "400": "ms",
+    "401": "mv",
+    "402": "mvv",
+    "403": "mvvm",
+    "404": "n",
+    "405": "ne",
+    "406": "ner",
+    "407": "new",
+    "408": "nex",
+    "409": "next",
+    "410": "nl",
+    "411": "nlp",
+    "412": "no",
+    "413": "node",
+    "414": "nu",
+    "415": "nur",
+    "416": "nurse",
+    "417": "o",
+    "418": "ob",
+    "419": "object",
+    "420": "objective",
+    "421": "om",
+    "422": "on",
+    "423": "onb",
+    "424": "onbo",
+    "425": "onboar",
+    "426": "onboard",
+    "427": "onboarding",
+    "428": "ont",
+    "429": "op",
+    "430": "oper",
+    "431": "operations",
+    "432": "opt",
+    "433": "optim",
+    "434": "optimi",
+    "435": "optimiz",
+    "436": "optimization",
+    "437": "or",
+    "438": "ot",
+    "439": "p",
+    "440": "part",
+    "441": "partner",
+    "442": "pat",
+    "443": "pati",
+    "444": "patient",
+    "445": "pen",
+    "446": "penet",
+    "447": "penetr",
+    "448": "penetration",
+    "449": "per",
+    "450": "perfor",
+    "451": "performan",
+    "452": "performance",
+    "453": "ph",
+    "454": "phy",
+    "455": "phys",
+    "456": "physical",
+    "457": "pip",
+    "458": "pipe",
+    "459": "pipel",
+    "460": "pipelin",
+    "461": "pipeline",
+    "462": "pipelines",
+    "463": "plan",
+    "464": "plans",
+    "465": "pmp",
+    "466": "po",
+    "467": "post",
+    "468": "postg",
+    "469": "postgres",
+    "470": "postgresql",
+    "471": "pro",
+    "472": "process",
+    "473": "prod",
+    "474": "product",
+    "475": "production",
+    "476": "progra",
+    "477": "program",
+    "478": "programm",
+    "479": "programming",
+    "480": "project",
+    "481": "prom",
+    "482": "prome",
+    "483": "prometh",
+    "484": "promethe",
+    "485": "prometheus",
+    "486": "py",
+    "487": "pyt",
+    "488": "pyth",
+    "489": "python",
+    "490": "pytor",
+    "491": "pytorch",
+    "492": "q",
+    "493": "ql",
+    "494": "qu",
+    "495": "quot",
+    "496": "quota",
+    "497": "r",
+    "498": "ra",
+    "499": "re",
+    "500": "reac",
+    "501": "react",
+    "502": "recr",
+    "503": "recru",
+    "504": "recruiting",
+    "505": "reg",
+    "506": "regist",
+    "507": "register",
+    "508": "registered",
+    "509": "reh",
+    "510": "reha",
+    "511": "rehabil",
+    "512": "rehabilit",
+    "513": "rehabilitation",
+    "514": "rel",
+    "515": "relations",
+    "516": "reli",
+    "517": "reliability",
+    "518": "rep",
+    "519": "repor",
+    "520": "reporting",
+    "521": "req",
+    "522": "requi",
+    "523": "require",
+    "524": "requirement",
+    "525": "requirements",
+    "526": "res",
+    "527": "rest",
+    "528": "rev",
+    "529": "reven",
+    "530": "revenu",
+    "531": "revenue",
+    "532": "ri",
+    "533": "ro",
+    "534": "ru",
+    "535": "rust",
+    "536": "s",
+    "537": "sal",
+    "538": "sales",
+    "539": "salesfor",
+    "540": "salesforce",
+    "541": "sast",
+    "542": "sci",
+    "543": "science",
+    "544": "sd",
+    "545": "sdk",
+    "546": "se",
+    "547": "secur",
+    "548": "security",
+    "549": "sen",
+    "550": "seni",
+    "551": "senior",
+    "552": "seo",
+    "553": "si",
+    "554": "sigma",
+    "555": "sit",
+    "556": "site",
+    "557": "six",
+    "558": "sno",
+    "559": "snow",
+    "560": "snowf",
+    "561": "snowfl",
+    "562": "snowflake",
+    "563": "so",
+    "564": "social",
+    "565": "soft",
+    "566": "software",
+    "567": "sp",
+    "568": "spark",
+    "569": "sql",
+    "570": "sre",
+    "571": "ss",
+    "572": "st",
+    "573": "stack",
+    "574": "stake",
+    "575": "stakeho",
+    "576": "stakehol",
+    "577": "stakehold",
+    "578": "stakeholder",
+    "579": "str",
+    "580": "strate",
+    "581": "strateg",
+    "582": "strategy",
+    "583": "struct",
+    "584": "structu",
+    "585": "structures",
+    "586": "stud",
+    "587": "student",
+    "588": "su",
+    "589": "sup",
+    "590": "supp",
+    "591": "suppl",
+    "592": "supply",
+    "593": "sw",
+    "594": "swi",
+    "595": "swift",
+    "596": "swiftui",
+    "597": "syst",
+    "598": "syste",
+    "599": "systems",
+    "600": "t",
+    "601": "ta",
+    "602": "tail",
+    "603": "tailw",
+    "604": "tailwin",
+    "605": "tailwind",
+    "606": "tailwindcss",
+    "607": "tal",
+    "608": "talent",
+    "609": "te",
+    "610": "teach",
+    "611": "teacher",
+    "612": "ten",
+    "613": "tens",
+    "614": "tensor",
+    "615": "tensorflow",
+    "616": "ter",
+    "617": "terra",
+    "618": "terrafor",
+    "619": "terraform",
+    "620": "tes",
+    "621": "testing",
+    "622": "th",
+    "623": "ther",
+    "624": "therapi",
+    "625": "therapist",
+    "626": "ting",
+    "627": "tri",
+    "628": "triag",
+    "629": "triage",
+    "630": "ty",
+    "631": "typ",
+    "632": "types",
+    "633": "typescr",
+    "634": "typescrip",
+    "635": "typescript",
+    "636": "u",
+    "637": "uat",
+    "638": "uct",
+    "639": "ud",
+    "640": "ui",
+    "641": "uik",
+    "642": "uikit",
+    "643": "ul",
+    "644": "us",
+    "645": "ut",
+    "646": "v",
+    "647": "var",
+    "648": "vari",
+    "649": "varian",
+    "650": "variance",
+    "651": "ve",
+    "652": "vi",
+    "653": "vis",
+    "654": "vision",
+    "655": "visu",
+    "656": "visual",
+    "657": "vul",
+    "658": "vulner",
+    "659": "vulnerability",
+    "660": "w",
+    "661": "ware",
+    "662": "wareho",
+    "663": "warehous",
+    "664": "warehousing",
+    "665": "wat",
+    "666": "water",
+    "667": "waterf",
+    "668": "waterfal",
+    "669": "waterfall",
+    "670": "we",
+    "671": "web",
+    "672": "wr",
+    "673": "writ",
+    "674": "writer",
+    "675": "x",
+    "676": "xcode",
+    "677": "y",
+    "678": "ye",
+    "679": "year",
+    "680": "years",
+    "681": "yst",
+    "682": "z"
+  },
+  "merges": [
+    {
+      "pair": [
+        "e",
+        "r"
+      ],
+      "merged": "er"
+    },
+    {
+      "pair": [
+        "e",
+        "n"
+      ],
+      "merged": "en"
+    },
+    {
+      "pair": [
+        "i",
+        "n"
+      ],
+      "merged": "in"
+    },
+    {
+      "pair": [
+        "o",
+        "n"
+      ],
+      "merged": "on"
+    },
+    {
+      "pair": [
+        "e",
+        "s"
+      ],
+      "merged": "es"
+    },
+    {
+      "pair": [
+        "a",
+        "n"
+      ],
+      "merged": "an"
+    },
+    {
+      "pair": [
+        "s",
+        "t"
+      ],
+      "merged": "st"
+    },
+    {
+      "pair": [
+        "a",
+        "t"
+      ],
+      "merged": "at"
+    },
+    {
+      "pair": [
+        "r",
+        "e"
+      ],
+      "merged": "re"
+    },
+    {
+      "pair": [
+        "in",
+        "e"
+      ],
+      "merged": "ine"
+    },
+    {
+      "pair": [
+        "i",
+        "t"
+      ],
+      "merged": "it"
+    },
+    {
+      "pair": [
+        "en",
+        "t"
+      ],
+      "merged": "ent"
+    },
+    {
+      "pair": [
+        "d",
+        "e"
+      ],
+      "merged": "de"
+    },
+    {
+      "pair": [
+        "o",
+        "r"
+      ],
+      "merged": "or"
+    },
+    {
+      "pair": [
+        "en",
+        "g"
+      ],
+      "merged": "eng"
+    },
+    {
+      "pair": [
+        "eng",
+        "ine"
+      ],
+      "merged": "engine"
+    },
+    {
+      "pair": [
+        "engine",
+        "er"
+      ],
+      "merged": "engineer"
+    },
+    {
+      "pair": [
+        "l",
+        "o"
+      ],
+      "merged": "lo"
+    },
+    {
+      "pair": [
+        "in",
+        "g"
+      ],
+      "merged": "ing"
+    },
+    {
+      "pair": [
+        "a",
+        "l"
+      ],
+      "merged": "al"
+    },
+    {
+      "pair": [
+        "p",
+        "y"
+      ],
+      "merged": "py"
+    },
+    {
+      "pair": [
+        "t",
+        "h"
+      ],
+      "merged": "th"
+    },
+    {
+      "pair": [
+        "r",
+        "o"
+      ],
+      "merged": "ro"
+    },
+    {
+      "pair": [
+        "a",
+        "c"
+      ],
+      "merged": "ac"
+    },
+    {
+      "pair": [
+        "py",
+        "th"
+      ],
+      "merged": "pyth"
+    },
+    {
+      "pair": [
+        "pyth",
+        "on"
+      ],
+      "merged": "python"
+    },
+    {
+      "pair": [
+        "e",
+        "t"
+      ],
+      "merged": "et"
+    },
+    {
+      "pair": [
+        "a",
+        "r"
+      ],
+      "merged": "ar"
+    },
+    {
+      "pair": [
+        "m",
+        "an"
+      ],
+      "merged": "man"
+    },
+    {
+      "pair": [
+        "m",
+        "ent"
+      ],
+      "merged": "ment"
+    },
+    {
+      "pair": [
+        "i",
+        "on"
+      ],
+      "merged": "ion"
+    },
+    {
+      "pair": [
+        "c",
+        "e"
+      ],
+      "merged": "ce"
+    },
+    {
+      "pair": [
+        "r",
+        "a"
+      ],
+      "merged": "ra"
+    },
+    {
+      "pair": [
+        "i",
+        "l"
+      ],
+      "merged": "il"
+    },
+    {
+      "pair": [
+        "p",
+        "er"
+      ],
+      "merged": "per"
+    },
+    {
+      "pair": [
+        "i",
+        "c"
+      ],
+      "merged": "ic"
+    },
+    {
+      "pair": [
+        "p",
+        "ro"
+      ],
+      "merged": "pro"
+    },
+    {
+      "pair": [
+        "at",
+        "ion"
+      ],
+      "merged": "ation"
+    },
+    {
+      "pair": [
+        "b",
+        "il"
+      ],
+      "merged": "bil"
+    },
+    {
+      "pair": [
+        "a",
+        "g"
+      ],
+      "merged": "ag"
+    },
+    {
+      "pair": [
+        "s",
+        "e"
+      ],
+      "merged": "se"
+    },
+    {
+      "pair": [
+        "c",
+        "o"
+      ],
+      "merged": "co"
+    },
+    {
+      "pair": [
+        "v",
+        "e"
+      ],
+      "merged": "ve"
+    },
+    {
+      "pair": [
+        "f",
+        "or"
+      ],
+      "merged": "for"
+    },
+    {
+      "pair": [
+        "g",
+        "ra"
+      ],
+      "merged": "gra"
+    },
+    {
+      "pair": [
+        "it",
+        "y"
+      ],
+      "merged": "ity"
+    },
+    {
+      "pair": [
+        "c",
+        "i"
+      ],
+      "merged": "ci"
+    },
+    {
+      "pair": [
+        "st",
+        "r"
+      ],
+      "merged": "str"
+    },
+    {
+      "pair": [
+        "c",
+        "t"
+      ],
+      "merged": "ct"
+    },
+    {
+      "pair": [
+        "i",
+        "p"
+      ],
+      "merged": "ip"
+    },
+    {
+      "pair": [
+        "es",
+        "s"
+      ],
+      "merged": "ess"
+    },
+    {
+      "pair": [
+        "d",
+        "at"
+      ],
+      "merged": "dat"
+    },
+    {
+      "pair": [
+        "dat",
+        "a"
+      ],
+      "merged": "data"
+    },
+    {
+      "pair": [
+        "g",
+        "o"
+      ],
+      "merged": "go"
+    },
+    {
+      "pair": [
+        "r",
+        "es"
+      ],
+      "merged": "res"
+    },
+    {
+      "pair": [
+        "a",
+        "p"
+      ],
+      "merged": "ap"
+    },
+    {
+      "pair": [
+        "e",
+        "d"
+      ],
+      "merged": "ed"
+    },
+    {
+      "pair": [
+        "man",
+        "ag"
+      ],
+      "merged": "manag"
+    },
+    {
+      "pair": [
+        "i",
+        "g"
+      ],
+      "merged": "ig"
+    },
+    {
+      "pair": [
+        "m",
+        "p"
+      ],
+      "merged": "mp"
+    },
+    {
+      "pair": [
+        "m",
+        "o"
+      ],
+      "merged": "mo"
+    },
+    {
+      "pair": [
+        "u",
+        "t"
+      ],
+      "merged": "ut"
+    },
+    {
+      "pair": [
+        "e",
+        "x"
+      ],
+      "merged": "ex"
+    },
+    {
+      "pair": [
+        "ac",
+        "k"
+      ],
+      "merged": "ack"
+    },
+    {
+      "pair": [
+        "en",
+        "d"
+      ],
+      "merged": "end"
+    },
+    {
+      "pair": [
+        "q",
+        "l"
+      ],
+      "merged": "ql"
+    },
+    {
+      "pair": [
+        "a",
+        "w"
+      ],
+      "merged": "aw"
+    },
+    {
+      "pair": [
+        "aw",
+        "s"
+      ],
+      "merged": "aws"
+    },
+    {
+      "pair": [
+        "f",
+        "t"
+      ],
+      "merged": "ft"
+    },
+    {
+      "pair": [
+        "an",
+        "d"
+      ],
+      "merged": "and"
+    },
+    {
+      "pair": [
+        "l",
+        "e"
+      ],
+      "merged": "le"
+    },
+    {
+      "pair": [
+        "u",
+        "ct"
+      ],
+      "merged": "uct"
+    },
+    {
+      "pair": [
+        "de",
+        "ve"
+      ],
+      "merged": "deve"
+    },
+    {
+      "pair": [
+        "deve",
+        "lo"
+      ],
+      "merged": "develo"
+    },
+    {
+      "pair": [
+        "y",
+        "st"
+      ],
+      "merged": "yst"
+    },
+    {
+      "pair": [
+        "per",
+        "for"
+      ],
+      "merged": "perfor"
+    },
+    {
+      "pair": [
+        "perfor",
+        "man"
+      ],
+      "merged": "performan"
+    },
+    {
+      "pair": [
+        "performan",
+        "ce"
+      ],
+      "merged": "performance"
+    },
+    {
+      "pair": [
+        "m",
+        "s"
+      ],
+      "merged": "ms"
+    },
+    {
+      "pair": [
+        "c",
+        "u"
+      ],
+      "merged": "cu"
+    },
+    {
+      "pair": [
+        "d",
+        "o"
+      ],
+      "merged": "do"
+    },
+    {
+      "pair": [
+        "a",
+        "re"
+      ],
+      "merged": "are"
+    },
+    {
+      "pair": [
+        "on",
+        "t"
+      ],
+      "merged": "ont"
+    },
+    {
+      "pair": [
+        "lo",
+        "w"
+      ],
+      "merged": "low"
+    },
+    {
+      "pair": [
+        "u",
+        "l"
+      ],
+      "merged": "ul"
+    },
+    {
+      "pair": [
+        "c",
+        "r"
+      ],
+      "merged": "cr"
+    },
+    {
+      "pair": [
+        "u",
+        "d"
+      ],
+      "merged": "ud"
+    },
+    {
+      "pair": [
+        "t",
+        "ing"
+      ],
+      "merged": "ting"
+    },
+    {
+      "pair": [
+        "er",
+        "n"
+      ],
+      "merged": "ern"
+    },
+    {
+      "pair": [
+        "u",
+        "s"
+      ],
+      "merged": "us"
+    },
+    {
+      "pair": [
+        "l",
+        "in"
+      ],
+      "merged": "lin"
+    },
+    {
+      "pair": [
+        "i",
+        "d"
+      ],
+      "merged": "id"
+    },
+    {
+      "pair": [
+        "s",
+        "s"
+      ],
+      "merged": "ss"
+    },
+    {
+      "pair": [
+        "bil",
+        "ity"
+      ],
+      "merged": "bility"
+    },
+    {
+      "pair": [
+        "u",
+        "i"
+      ],
+      "merged": "ui"
+    },
+    {
+      "pair": [
+        "y",
+        "e"
+      ],
+      "merged": "ye"
+    },
+    {
+      "pair": [
+        "manag",
+        "e"
+      ],
+      "merged": "manage"
+    },
+    {
+      "pair": [
+        "manage",
+        "ment"
+      ],
+      "merged": "management"
+    },
+    {
+      "pair": [
+        "de",
+        "l"
+      ],
+      "merged": "del"
+    },
+    {
+      "pair": [
+        "co",
+        "mp"
+      ],
+      "merged": "comp"
+    },
+    {
+      "pair": [
+        "develo",
+        "per"
+      ],
+      "merged": "developer"
+    },
+    {
+      "pair": [
+        "re",
+        "ac"
+      ],
+      "merged": "reac"
+    },
+    {
+      "pair": [
+        "reac",
+        "t"
+      ],
+      "merged": "react"
+    },
+    {
+      "pair": [
+        "t",
+        "y"
+      ],
+      "merged": "ty"
+    },
+    {
+      "pair": [
+        "ty",
+        "p"
+      ],
+      "merged": "typ"
+    },
+    {
+      "pair": [
+        "typ",
+        "es"
+      ],
+      "merged": "types"
+    },
+    {
+      "pair": [
+        "types",
+        "cr"
+      ],
+      "merged": "typescr"
+    },
+    {
+      "pair": [
+        "typescr",
+        "ip"
+      ],
+      "merged": "typescrip"
+    },
+    {
+      "pair": [
+        "typescrip",
+        "t"
+      ],
+      "merged": "typescript"
+    },
+    {
+      "pair": [
+        "n",
+        "o"
+      ],
+      "merged": "no"
+    },
+    {
+      "pair": [
+        "j",
+        "s"
+      ],
+      "merged": "js"
+    },
+    {
+      "pair": [
+        "p",
+        "h"
+      ],
+      "merged": "ph"
+    },
+    {
+      "pair": [
+        "k",
+        "u"
+      ],
+      "merged": "ku"
+    },
+    {
+      "pair": [
+        "ku",
+        "b"
+      ],
+      "merged": "kub"
+    },
+    {
+      "pair": [
+        "kub",
+        "ern"
+      ],
+      "merged": "kubern"
+    },
+    {
+      "pair": [
+        "kubern",
+        "et"
+      ],
+      "merged": "kubernet"
+    },
+    {
+      "pair": [
+        "kubernet",
+        "es"
+      ],
+      "merged": "kubernetes"
+    },
+    {
+      "pair": [
+        "str",
+        "uct"
+      ],
+      "merged": "struct"
+    },
+    {
+      "pair": [
+        "struct",
+        "u"
+      ],
+      "merged": "structu"
+    },
+    {
+      "pair": [
+        "n",
+        "er"
+      ],
+      "merged": "ner"
+    },
+    {
+      "pair": [
+        "a",
+        "k"
+      ],
+      "merged": "ak"
+    },
+    {
+      "pair": [
+        "ak",
+        "e"
+      ],
+      "merged": "ake"
+    },
+    {
+      "pair": [
+        "h",
+        "o"
+      ],
+      "merged": "ho"
+    },
+    {
+      "pair": [
+        "a",
+        "bility"
+      ],
+      "merged": "ability"
+    },
+    {
+      "pair": [
+        "s",
+        "yst"
+      ],
+      "merged": "syst"
+    },
+    {
+      "pair": [
+        "syst",
+        "e"
+      ],
+      "merged": "syste"
+    },
+    {
+      "pair": [
+        "syste",
+        "ms"
+      ],
+      "merged": "systems"
+    },
+    {
+      "pair": [
+        "and",
+        "ro"
+      ],
+      "merged": "andro"
+    },
+    {
+      "pair": [
+        "andro",
+        "id"
+      ],
+      "merged": "android"
+    },
+    {
+      "pair": [
+        "j",
+        "a"
+      ],
+      "merged": "ja"
+    },
+    {
+      "pair": [
+        "ja",
+        "v"
+      ],
+      "merged": "jav"
+    },
+    {
+      "pair": [
+        "jav",
+        "a"
+      ],
+      "merged": "java"
+    },
+    {
+      "pair": [
+        "mo",
+        "bil"
+      ],
+      "merged": "mobil"
+    },
+    {
+      "pair": [
+        "mobil",
+        "e"
+      ],
+      "merged": "mobile"
+    },
+    {
+      "pair": [
+        "cu",
+        "r"
+      ],
+      "merged": "cur"
+    },
+    {
+      "pair": [
+        "s",
+        "w"
+      ],
+      "merged": "sw"
+    },
+    {
+      "pair": [
+        "sw",
+        "i"
+      ],
+      "merged": "swi"
+    },
+    {
+      "pair": [
+        "swi",
+        "ft"
+      ],
+      "merged": "swift"
+    },
+    {
+      "pair": [
+        "res",
+        "t"
+      ],
+      "merged": "rest"
+    },
+    {
+      "pair": [
+        "ap",
+        "i"
+      ],
+      "merged": "api"
+    },
+    {
+      "pair": [
+        "ye",
+        "ar"
+      ],
+      "merged": "year"
+    },
+    {
+      "pair": [
+        "year",
+        "s"
+      ],
+      "merged": "years"
+    },
+    {
+      "pair": [
+        "s",
+        "o"
+      ],
+      "merged": "so"
+    },
+    {
+      "pair": [
+        "w",
+        "are"
+      ],
+      "merged": "ware"
+    },
+    {
+      "pair": [
+        "de",
+        "p"
+      ],
+      "merged": "dep"
+    },
+    {
+      "pair": [
+        "dep",
+        "lo"
+      ],
+      "merged": "deplo"
+    },
+    {
+      "pair": [
+        "deplo",
+        "y"
+      ],
+      "merged": "deploy"
+    },
+    {
+      "pair": [
+        "ar",
+        "k"
+      ],
+      "merged": "ark"
+    },
+    {
+      "pair": [
+        "manag",
+        "er"
+      ],
+      "merged": "manager"
+    },
+    {
+      "pair": [
+        "ac",
+        "h"
+      ],
+      "merged": "ach"
+    },
+    {
+      "pair": [
+        "c",
+        "h"
+      ],
+      "merged": "ch"
+    },
+    {
+      "pair": [
+        "mo",
+        "del"
+      ],
+      "merged": "model"
+    },
+    {
+      "pair": [
+        "f",
+        "low"
+      ],
+      "merged": "flow"
+    },
+    {
+      "pair": [
+        "comp",
+        "ut"
+      ],
+      "merged": "comput"
+    },
+    {
+      "pair": [
+        "comput",
+        "er"
+      ],
+      "merged": "computer"
+    },
+    {
+      "pair": [
+        "p",
+        "ip"
+      ],
+      "merged": "pip"
+    },
+    {
+      "pair": [
+        "pip",
+        "e"
+      ],
+      "merged": "pipe"
+    },
+    {
+      "pair": [
+        "o",
+        "t"
+      ],
+      "merged": "ot"
+    },
+    {
+      "pair": [
+        "m",
+        "on"
+      ],
+      "merged": "mon"
+    },
+    {
+      "pair": [
+        "gra",
+        "ph"
+      ],
+      "merged": "graph"
+    },
+    {
+      "pair": [
+        "f",
+        "r"
+      ],
+      "merged": "fr"
+    },
+    {
+      "pair": [
+        "fr",
+        "ont"
+      ],
+      "merged": "front"
+    },
+    {
+      "pair": [
+        "front",
+        "end"
+      ],
+      "merged": "frontend"
+    },
+    {
+      "pair": [
+        "b",
+        "ack"
+      ],
+      "merged": "back"
+    },
+    {
+      "pair": [
+        "back",
+        "end"
+      ],
+      "merged": "backend"
+    },
+    {
+      "pair": [
+        "en",
+        "ce"
+      ],
+      "merged": "ence"
+    },
+    {
+      "pair": [
+        "a",
+        "st"
+      ],
+      "merged": "ast"
+    },
+    {
+      "pair": [
+        "o",
+        "p"
+      ],
+      "merged": "op"
+    },
+    {
+      "pair": [
+        "re",
+        "l"
+      ],
+      "merged": "rel"
+    },
+    {
+      "pair": [
+        "s",
+        "p"
+      ],
+      "merged": "sp"
+    },
+    {
+      "pair": [
+        "c",
+        "ess"
+      ],
+      "merged": "cess"
+    },
+    {
+      "pair": [
+        "ic",
+        "al"
+      ],
+      "merged": "ical"
+    },
+    {
+      "pair": [
+        "se",
+        "cur"
+      ],
+      "merged": "secur"
+    },
+    {
+      "pair": [
+        "secur",
+        "ity"
+      ],
+      "merged": "security"
+    },
+    {
+      "pair": [
+        "t",
+        "es"
+      ],
+      "merged": "tes"
+    },
+    {
+      "pair": [
+        "tes",
+        "ting"
+      ],
+      "merged": "testing"
+    },
+    {
+      "pair": [
+        "a",
+        "ss"
+      ],
+      "merged": "ass"
+    },
+    {
+      "pair": [
+        "gra",
+        "d"
+      ],
+      "merged": "grad"
+    },
+    {
+      "pair": [
+        "co",
+        "de"
+      ],
+      "merged": "code"
+    },
+    {
+      "pair": [
+        "ap",
+        "p"
+      ],
+      "merged": "app"
+    },
+    {
+      "pair": [
+        "d",
+        "j"
+      ],
+      "merged": "dj"
+    },
+    {
+      "pair": [
+        "dj",
+        "an"
+      ],
+      "merged": "djan"
+    },
+    {
+      "pair": [
+        "djan",
+        "go"
+      ],
+      "merged": "django"
+    },
+    {
+      "pair": [
+        "p",
+        "o"
+      ],
+      "merged": "po"
+    },
+    {
+      "pair": [
+        "po",
+        "st"
+      ],
+      "merged": "post"
+    },
+    {
+      "pair": [
+        "post",
+        "g"
+      ],
+      "merged": "postg"
+    },
+    {
+      "pair": [
+        "postg",
+        "res"
+      ],
+      "merged": "postgres"
+    },
+    {
+      "pair": [
+        "postgres",
+        "ql"
+      ],
+      "merged": "postgresql"
+    },
+    {
+      "pair": [
+        "do",
+        "c"
+      ],
+      "merged": "doc"
+    },
+    {
+      "pair": [
+        "doc",
+        "k"
+      ],
+      "merged": "dock"
+    },
+    {
+      "pair": [
+        "dock",
+        "er"
+      ],
+      "merged": "docker"
+    },
+    {
+      "pair": [
+        "m",
+        "ic"
+      ],
+      "merged": "mic"
+    },
+    {
+      "pair": [
+        "mic",
+        "ro"
+      ],
+      "merged": "micro"
+    },
+    {
+      "pair": [
+        "micro",
+        "s"
+      ],
+      "merged": "micros"
+    },
+    {
+      "pair": [
+        "micros",
+        "er"
+      ],
+      "merged": "microser"
+    },
+    {
+      "pair": [
+        "microser",
+        "v"
+      ],
+      "merged": "microserv"
+    },
+    {
+      "pair": [
+        "microserv",
+        "ic"
+      ],
+      "merged": "microservic"
+    },
+    {
+      "pair": [
+        "microservic",
+        "es"
+      ],
+      "merged": "microservices"
+    },
+    {
+      "pair": [
+        "so",
+        "ft"
+      ],
+      "merged": "soft"
+    },
+    {
+      "pair": [
+        "soft",
+        "ware"
+      ],
+      "merged": "software"
+    },
+    {
+      "pair": [
+        "deploy",
+        "ed"
+      ],
+      "merged": "deployed"
+    },
+    {
+      "pair": [
+        "it",
+        "al"
+      ],
+      "merged": "ital"
+    },
+    {
+      "pair": [
+        "ig",
+        "n"
+      ],
+      "merged": "ign"
+    },
+    {
+      "pair": [
+        "ci",
+        "al"
+      ],
+      "merged": "cial"
+    },
+    {
+      "pair": [
+        "se",
+        "o"
+      ],
+      "merged": "seo"
+    },
+    {
+      "pair": [
+        "c",
+        "ont"
+      ],
+      "merged": "cont"
+    },
+    {
+      "pair": [
+        "cont",
+        "ent"
+      ],
+      "merged": "content"
+    },
+    {
+      "pair": [
+        "at",
+        "e"
+      ],
+      "merged": "ate"
+    },
+    {
+      "pair": [
+        "b",
+        "r"
+      ],
+      "merged": "br"
+    },
+    {
+      "pair": [
+        "br",
+        "and"
+      ],
+      "merged": "brand"
+    },
+    {
+      "pair": [
+        "le",
+        "ar"
+      ],
+      "merged": "lear"
+    },
+    {
+      "pair": [
+        "lear",
+        "n"
+      ],
+      "merged": "learn"
+    },
+    {
+      "pair": [
+        "learn",
+        "ing"
+      ],
+      "merged": "learning"
+    },
+    {
+      "pair": [
+        "py",
+        "t"
+      ],
+      "merged": "pyt"
+    },
+    {
+      "pair": [
+        "pyt",
+        "or"
+      ],
+      "merged": "pytor"
+    },
+    {
+      "pair": [
+        "pytor",
+        "ch"
+      ],
+      "merged": "pytorch"
+    },
+    {
+      "pair": [
+        "n",
+        "l"
+      ],
+      "merged": "nl"
+    },
+    {
+      "pair": [
+        "nl",
+        "p"
+      ],
+      "merged": "nlp"
+    },
+    {
+      "pair": [
+        "pro",
+        "d"
+      ],
+      "merged": "prod"
+    },
+    {
+      "pair": [
+        "prod",
+        "uct"
+      ],
+      "merged": "product"
+    },
+    {
+      "pair": [
+        "product",
+        "ion"
+      ],
+      "merged": "production"
+    },
+    {
+      "pair": [
+        "v",
+        "i"
+      ],
+      "merged": "vi"
+    },
+    {
+      "pair": [
+        "vi",
+        "s"
+      ],
+      "merged": "vis"
+    },
+    {
+      "pair": [
+        "s",
+        "al"
+      ],
+      "merged": "sal"
+    },
+    {
+      "pair": [
+        "sal",
+        "es"
+      ],
+      "merged": "sales"
+    },
+    {
+      "pair": [
+        "i",
+        "ve"
+      ],
+      "merged": "ive"
+    },
+    {
+      "pair": [
+        "r",
+        "i"
+      ],
+      "merged": "ri"
+    },
+    {
+      "pair": [
+        "pipe",
+        "l"
+      ],
+      "merged": "pipel"
+    },
+    {
+      "pair": [
+        "pipel",
+        "ine"
+      ],
+      "merged": "pipeline"
+    },
+    {
+      "pair": [
+        "f",
+        "ul"
+      ],
+      "merged": "ful"
+    },
+    {
+      "pair": [
+        "ful",
+        "l"
+      ],
+      "merged": "full"
+    },
+    {
+      "pair": [
+        "st",
+        "ack"
+      ],
+      "merged": "stack"
+    },
+    {
+      "pair": [
+        "no",
+        "de"
+      ],
+      "merged": "node"
+    },
+    {
+      "pair": [
+        "mon",
+        "go"
+      ],
+      "merged": "mongo"
+    },
+    {
+      "pair": [
+        "mongo",
+        "d"
+      ],
+      "merged": "mongod"
+    },
+    {
+      "pair": [
+        "mongod",
+        "b"
+      ],
+      "merged": "mongodb"
+    },
+    {
+      "pair": [
+        "graph",
+        "ql"
+      ],
+      "merged": "graphql"
+    },
+    {
+      "pair": [
+        "an",
+        "al"
+      ],
+      "merged": "anal"
+    },
+    {
+      "pair": [
+        "anal",
+        "yst"
+      ],
+      "merged": "analyst"
+    },
+    {
+      "pair": [
+        "ex",
+        "ce"
+      ],
+      "merged": "exce"
+    },
+    {
+      "pair": [
+        "exce",
+        "l"
+      ],
+      "merged": "excel"
+    },
+    {
+      "pair": [
+        "b",
+        "ud"
+      ],
+      "merged": "bud"
+    },
+    {
+      "pair": [
+        "bud",
+        "g"
+      ],
+      "merged": "budg"
+    },
+    {
+      "pair": [
+        "budg",
+        "et"
+      ],
+      "merged": "budget"
+    },
+    {
+      "pair": [
+        "re",
+        "p"
+      ],
+      "merged": "rep"
+    },
+    {
+      "pair": [
+        "rep",
+        "or"
+      ],
+      "merged": "repor"
+    },
+    {
+      "pair": [
+        "repor",
+        "ting"
+      ],
+      "merged": "reporting"
+    },
+    {
+      "pair": [
+        "de",
+        "v"
+      ],
+      "merged": "dev"
+    },
+    {
+      "pair": [
+        "dev",
+        "op"
+      ],
+      "merged": "devop"
+    },
+    {
+      "pair": [
+        "devop",
+        "s"
+      ],
+      "merged": "devops"
+    },
+    {
+      "pair": [
+        "t",
+        "er"
+      ],
+      "merged": "ter"
+    },
+    {
+      "pair": [
+        "ter",
+        "ra"
+      ],
+      "merged": "terra"
+    },
+    {
+      "pair": [
+        "terra",
+        "for"
+      ],
+      "merged": "terrafor"
+    },
+    {
+      "pair": [
+        "terrafor",
+        "m"
+      ],
+      "merged": "terraform"
+    },
+    {
+      "pair": [
+        "c",
+        "d"
+      ],
+      "merged": "cd"
+    },
+    {
+      "pair": [
+        "in",
+        "f"
+      ],
+      "merged": "inf"
+    },
+    {
+      "pair": [
+        "inf",
+        "ra"
+      ],
+      "merged": "infra"
+    },
+    {
+      "pair": [
+        "infra",
+        "structu"
+      ],
+      "merged": "infrastructu"
+    },
+    {
+      "pair": [
+        "infrastructu",
+        "re"
+      ],
+      "merged": "infrastructure"
+    },
+    {
+      "pair": [
+        "o",
+        "m"
+      ],
+      "merged": "om"
+    },
+    {
+      "pair": [
+        "l",
+        "an"
+      ],
+      "merged": "lan"
+    },
+    {
+      "pair": [
+        "b",
+        "us"
+      ],
+      "merged": "bus"
+    },
+    {
+      "pair": [
+        "bus",
+        "in"
+      ],
+      "merged": "busin"
+    },
+    {
+      "pair": [
+        "busin",
+        "ess"
+      ],
+      "merged": "business"
+    },
+    {
+      "pair": [
+        "ar",
+        "t"
+      ],
+      "merged": "art"
+    },
+    {
+      "pair": [
+        "it",
+        "ing"
+      ],
+      "merged": "iting"
+    },
+    {
+      "pair": [
+        "ation",
+        "s"
+      ],
+      "merged": "ations"
+    },
+    {
+      "pair": [
+        "sp",
+        "ark"
+      ],
+      "merged": "spark"
+    },
+    {
+      "pair": [
+        "a",
+        "i"
+      ],
+      "merged": "ai"
+    },
+    {
+      "pair": [
+        "ai",
+        "r"
+      ],
+      "merged": "air"
+    },
+    {
+      "pair": [
+        "air",
+        "flow"
+      ],
+      "merged": "airflow"
+    },
+    {
+      "pair": [
+        "s",
+        "no"
+      ],
+      "merged": "sno"
+    },
+    {
+      "pair": [
+        "sno",
+        "w"
+      ],
+      "merged": "snow"
+    },
+    {
+      "pair": [
+        "snow",
+        "f"
+      ],
+      "merged": "snowf"
+    },
+    {
+      "pair": [
+        "snowf",
+        "l"
+      ],
+      "merged": "snowfl"
+    },
+    {
+      "pair": [
+        "snowfl",
+        "ake"
+      ],
+      "merged": "snowflake"
+    },
+    {
+      "pair": [
+        "et",
+        "l"
+      ],
+      "merged": "etl"
+    },
+    {
+      "pair": [
+        "s",
+        "ql"
+      ],
+      "merged": "sql"
+    },
+    {
+      "pair": [
+        "d",
+        "es"
+      ],
+      "merged": "des"
+    },
+    {
+      "pair": [
+        "ig",
+        "m"
+      ],
+      "merged": "igm"
+    },
+    {
+      "pair": [
+        "igm",
+        "a"
+      ],
+      "merged": "igma"
+    },
+    {
+      "pair": [
+        "n",
+        "ex"
+      ],
+      "merged": "nex"
+    },
+    {
+      "pair": [
+        "nex",
+        "t"
+      ],
+      "merged": "next"
+    },
+    {
+      "pair": [
+        "c",
+        "ss"
+      ],
+      "merged": "css"
+    },
+    {
+      "pair": [
+        "i",
+        "m"
+      ],
+      "merged": "im"
+    },
+    {
+      "pair": [
+        "lo",
+        "g"
+      ],
+      "merged": "log"
+    },
+    {
+      "pair": [
+        "i",
+        "st"
+      ],
+      "merged": "ist"
+    },
+    {
+      "pair": [
+        "pro",
+        "cess"
+      ],
+      "merged": "process"
+    },
+    {
+      "pair": [
+        "rel",
+        "i"
+      ],
+      "merged": "reli"
+    },
+    {
+      "pair": [
+        "reli",
+        "ability"
+      ],
+      "merged": "reliability"
+    },
+    {
+      "pair": [
+        "d",
+        "i"
+      ],
+      "merged": "di"
+    },
+    {
+      "pair": [
+        "di",
+        "str"
+      ],
+      "merged": "distr"
+    },
+    {
+      "pair": [
+        "distr",
+        "i"
+      ],
+      "merged": "distri"
+    },
+    {
+      "pair": [
+        "distri",
+        "b"
+      ],
+      "merged": "distrib"
+    },
+    {
+      "pair": [
+        "distrib",
+        "ut"
+      ],
+      "merged": "distribut"
+    },
+    {
+      "pair": [
+        "distribut",
+        "ed"
+      ],
+      "merged": "distributed"
+    },
+    {
+      "pair": [
+        "it",
+        "or"
+      ],
+      "merged": "itor"
+    },
+    {
+      "pair": [
+        "pro",
+        "m"
+      ],
+      "merged": "prom"
+    },
+    {
+      "pair": [
+        "prom",
+        "e"
+      ],
+      "merged": "prome"
+    },
+    {
+      "pair": [
+        "prome",
+        "th"
+      ],
+      "merged": "prometh"
+    },
+    {
+      "pair": [
+        "prometh",
+        "e"
+      ],
+      "merged": "promethe"
+    },
+    {
+      "pair": [
+        "promethe",
+        "us"
+      ],
+      "merged": "prometheus"
+    },
+    {
+      "pair": [
+        "w",
+        "r"
+      ],
+      "merged": "wr"
+    },
+    {
+      "pair": [
+        "r",
+        "u"
+      ],
+      "merged": "ru"
+    },
+    {
+      "pair": [
+        "ru",
+        "st"
+      ],
+      "merged": "rust"
+    },
+    {
+      "pair": [
+        "pro",
+        "gra"
+      ],
+      "merged": "progra"
+    },
+    {
+      "pair": [
+        "progra",
+        "m"
+      ],
+      "merged": "program"
+    },
+    {
+      "pair": [
+        "program",
+        "m"
+      ],
+      "merged": "programm"
+    },
+    {
+      "pair": [
+        "programm",
+        "ing"
+      ],
+      "merged": "programming"
+    },
+    {
+      "pair": [
+        "l",
+        "at"
+      ],
+      "merged": "lat"
+    },
+    {
+      "pair": [
+        "lat",
+        "en"
+      ],
+      "merged": "laten"
+    },
+    {
+      "pair": [
+        "laten",
+        "c"
+      ],
+      "merged": "latenc"
+    },
+    {
+      "pair": [
+        "latenc",
+        "y"
+      ],
+      "merged": "latency"
+    },
+    {
+      "pair": [
+        "data",
+        "b"
+      ],
+      "merged": "datab"
+    },
+    {
+      "pair": [
+        "datab",
+        "a"
+      ],
+      "merged": "databa"
+    },
+    {
+      "pair": [
+        "databa",
+        "s"
+      ],
+      "merged": "databas"
+    },
+    {
+      "pair": [
+        "databas",
+        "es"
+      ],
+      "merged": "databases"
+    },
+    {
+      "pair": [
+        "j",
+        "e"
+      ],
+      "merged": "je"
+    },
+    {
+      "pair": [
+        "je",
+        "ct"
+      ],
+      "merged": "ject"
+    },
+    {
+      "pair": [
+        "st",
+        "ake"
+      ],
+      "merged": "stake"
+    },
+    {
+      "pair": [
+        "stake",
+        "ho"
+      ],
+      "merged": "stakeho"
+    },
+    {
+      "pair": [
+        "stakeho",
+        "l"
+      ],
+      "merged": "stakehol"
+    },
+    {
+      "pair": [
+        "stakehol",
+        "d"
+      ],
+      "merged": "stakehold"
+    },
+    {
+      "pair": [
+        "stakehold",
+        "er"
+      ],
+      "merged": "stakeholder"
+    },
+    {
+      "pair": [
+        "k",
+        "ot"
+      ],
+      "merged": "kot"
+    },
+    {
+      "pair": [
+        "kot",
+        "lin"
+      ],
+      "merged": "kotlin"
+    },
+    {
+      "pair": [
+        "develo",
+        "p"
+      ],
+      "merged": "develop"
+    },
+    {
+      "pair": [
+        "develop",
+        "ment"
+      ],
+      "merged": "development"
+    },
+    {
+      "pair": [
+        "s",
+        "d"
+      ],
+      "merged": "sd"
+    },
+    {
+      "pair": [
+        "sd",
+        "k"
+      ],
+      "merged": "sdk"
+    },
+    {
+      "pair": [
+        "m",
+        "v"
+      ],
+      "merged": "mv"
+    },
+    {
+      "pair": [
+        "mv",
+        "v"
+      ],
+      "merged": "mvv"
+    },
+    {
+      "pair": [
+        "mvv",
+        "m"
+      ],
+      "merged": "mvvm"
+    },
+    {
+      "pair": [
+        "j",
+        "et"
+      ],
+      "merged": "jet"
+    },
+    {
+      "pair": [
+        "jet",
+        "p"
+      ],
+      "merged": "jetp"
+    },
+    {
+      "pair": [
+        "jetp",
+        "ack"
+      ],
+      "merged": "jetpack"
+    },
+    {
+      "pair": [
+        "p",
+        "at"
+      ],
+      "merged": "pat"
+    },
+    {
+      "pair": [
+        "pat",
+        "i"
+      ],
+      "merged": "pati"
+    },
+    {
+      "pair": [
+        "pati",
+        "ent"
+      ],
+      "merged": "patient"
+    },
+    {
+      "pair": [
+        "c",
+        "are"
+      ],
+      "merged": "care"
+    },
+    {
+      "pair": [
+        "c",
+        "lin"
+      ],
+      "merged": "clin"
+    },
+    {
+      "pair": [
+        "clin",
+        "ical"
+      ],
+      "merged": "clinical"
+    },
+    {
+      "pair": [
+        "do",
+        "cu"
+      ],
+      "merged": "docu"
+    },
+    {
+      "pair": [
+        "docu",
+        "ment"
+      ],
+      "merged": "document"
+    },
+    {
+      "pair": [
+        "document",
+        "ation"
+      ],
+      "merged": "documentation"
+    },
+    {
+      "pair": [
+        "p",
+        "en"
+      ],
+      "merged": "pen"
+    },
+    {
+      "pair": [
+        "pen",
+        "et"
+      ],
+      "merged": "penet"
+    },
+    {
+      "pair": [
+        "penet",
+        "r"
+      ],
+      "merged": "penetr"
+    },
+    {
+      "pair": [
+        "penetr",
+        "ation"
+      ],
+      "merged": "penetration"
+    },
+    {
+      "pair": [
+        "c",
+        "lo"
+      ],
+      "merged": "clo"
+    },
+    {
+      "pair": [
+        "clo",
+        "ud"
+      ],
+      "merged": "cloud"
+    },
+    {
+      "pair": [
+        "v",
+        "ul"
+      ],
+      "merged": "vul"
+    },
+    {
+      "pair": [
+        "vul",
+        "ner"
+      ],
+      "merged": "vulner"
+    },
+    {
+      "pair": [
+        "vulner",
+        "ability"
+      ],
+      "merged": "vulnerability"
+    },
+    {
+      "pair": [
+        "ass",
+        "ess"
+      ],
+      "merged": "assess"
+    },
+    {
+      "pair": [
+        "assess",
+        "ment"
+      ],
+      "merged": "assessment"
+    },
+    {
+      "pair": [
+        "al",
+        "g"
+      ],
+      "merged": "alg"
+    },
+    {
+      "pair": [
+        "alg",
+        "or"
+      ],
+      "merged": "algor"
+    },
+    {
+      "pair": [
+        "algor",
+        "it"
+      ],
+      "merged": "algorit"
+    },
+    {
+      "pair": [
+        "algorit",
+        "h"
+      ],
+      "merged": "algorith"
+    },
+    {
+      "pair": [
+        "algorith",
+        "ms"
+      ],
+      "merged": "algorithms"
+    },
+    {
+      "pair": [
+        "structu",
+        "res"
+      ],
+      "merged": "structures"
+    },
+    {
+      "pair": [
+        "s",
+        "ci"
+      ],
+      "merged": "sci"
+    },
+    {
+      "pair": [
+        "sci",
+        "ence"
+      ],
+      "merged": "science"
+    },
+    {
+      "pair": [
+        "i",
+        "o"
+      ],
+      "merged": "io"
+    },
+    {
+      "pair": [
+        "io",
+        "s"
+      ],
+      "merged": "ios"
+    },
+    {
+      "pair": [
+        "ui",
+        "k"
+      ],
+      "merged": "uik"
+    },
+    {
+      "pair": [
+        "uik",
+        "it"
+      ],
+      "merged": "uikit"
+    },
+    {
+      "pair": [
+        "swift",
+        "ui"
+      ],
+      "merged": "swiftui"
+    },
+    {
+      "pair": [
+        "app",
+        "le"
+      ],
+      "merged": "apple"
+    },
+    {
+      "pair": [
+        "x",
+        "code"
+      ],
+      "merged": "xcode"
+    },
+    {
+      "pair": [
+        "s",
+        "en"
+      ],
+      "merged": "sen"
+    },
+    {
+      "pair": [
+        "sen",
+        "i"
+      ],
+      "merged": "seni"
+    },
+    {
+      "pair": [
+        "seni",
+        "or"
+      ],
+      "merged": "senior"
+    },
+    {
+      "pair": [
+        "m",
+        "ark"
+      ],
+      "merged": "mark"
+    },
+    {
+      "pair": [
+        "mark",
+        "et"
+      ],
+      "merged": "market"
+    },
+    {
+      "pair": [
+        "market",
+        "ing"
+      ],
+      "merged": "marketing"
+    },
+    {
+      "pair": [
+        "d",
+        "ig"
+      ],
+      "merged": "dig"
+    },
+    {
+      "pair": [
+        "dig",
+        "ital"
+      ],
+      "merged": "digital"
+    },
+    {
+      "pair": [
+        "c",
+        "a"
+      ],
+      "merged": "ca"
+    },
+    {
+      "pair": [
+        "ca",
+        "mp"
+      ],
+      "merged": "camp"
+    },
+    {
+      "pair": [
+        "camp",
+        "a"
+      ],
+      "merged": "campa"
+    },
+    {
+      "pair": [
+        "campa",
+        "ign"
+      ],
+      "merged": "campaign"
+    },
+    {
+      "pair": [
+        "campaign",
+        "s"
+      ],
+      "merged": "campaigns"
+    },
+    {
+      "pair": [
+        "so",
+        "cial"
+      ],
+      "merged": "social"
+    },
+    {
+      "pair": [
+        "m",
+        "ed"
+      ],
+      "merged": "med"
+    },
+    {
+      "pair": [
+        "med",
+        "i"
+      ],
+      "merged": "medi"
+    },
+    {
+      "pair": [
+        "medi",
+        "a"
+      ],
+      "merged": "media"
+    },
+    {
+      "pair": [
+        "str",
+        "ate"
+      ],
+      "merged": "strate"
+    },
+    {
+      "pair": [
+        "strate",
+        "g"
+      ],
+      "merged": "strateg"
+    },
+    {
+      "pair": [
+        "strateg",
+        "y"
+      ],
+      "merged": "strategy"
+    },
+    {
+      "pair": [
+        "m",
+        "ach"
+      ],
+      "merged": "mach"
+    },
+    {
+      "pair": [
+        "mach",
+        "ine"
+      ],
+      "merged": "machine"
+    },
+    {
+      "pair": [
+        "de",
+        "e"
+      ],
+      "merged": "dee"
+    },
+    {
+      "pair": [
+        "dee",
+        "p"
+      ],
+      "merged": "deep"
+    },
+    {
+      "pair": [
+        "deploy",
+        "ment"
+      ],
+      "merged": "deployment"
+    },
+    {
+      "pair": [
+        "m",
+        "l"
+      ],
+      "merged": "ml"
+    },
+    {
+      "pair": [
+        "t",
+        "en"
+      ],
+      "merged": "ten"
+    },
+    {
+      "pair": [
+        "ten",
+        "s"
+      ],
+      "merged": "tens"
+    },
+    {
+      "pair": [
+        "tens",
+        "or"
+      ],
+      "merged": "tensor"
+    },
+    {
+      "pair": [
+        "tensor",
+        "flow"
+      ],
+      "merged": "tensorflow"
+    },
+    {
+      "pair": [
+        "model",
+        "s"
+      ],
+      "merged": "models"
+    },
+    {
+      "pair": [
+        "vis",
+        "ion"
+      ],
+      "merged": "vision"
+    },
+    {
+      "pair": [
+        "ex",
+        "e"
+      ],
+      "merged": "exe"
+    },
+    {
+      "pair": [
+        "exe",
+        "c"
+      ],
+      "merged": "exec"
+    },
+    {
+      "pair": [
+        "exec",
+        "ut"
+      ],
+      "merged": "execut"
+    },
+    {
+      "pair": [
+        "execut",
+        "ive"
+      ],
+      "merged": "executive"
+    },
+    {
+      "pair": [
+        "b",
+        "2"
+      ],
+      "merged": "b2"
+    },
+    {
+      "pair": [
+        "b2",
+        "b"
+      ],
+      "merged": "b2b"
+    },
+    {
+      "pair": [
+        "ent",
+        "er"
+      ],
+      "merged": "enter"
+    },
+    {
+      "pair": [
+        "enter",
+        "p"
+      ],
+      "merged": "enterp"
+    },
+    {
+      "pair": [
+        "enterp",
+        "ri"
+      ],
+      "merged": "enterpri"
+    },
+    {
+      "pair": [
+        "enterpri",
+        "se"
+      ],
+      "merged": "enterprise"
+    },
+    {
+      "pair": [
+        "sales",
+        "for"
+      ],
+      "merged": "salesfor"
+    },
+    {
+      "pair": [
+        "salesfor",
+        "ce"
+      ],
+      "merged": "salesforce"
+    },
+    {
+      "pair": [
+        "q",
+        "u"
+      ],
+      "merged": "qu"
+    },
+    {
+      "pair": [
+        "qu",
+        "ot"
+      ],
+      "merged": "quot"
+    },
+    {
+      "pair": [
+        "quot",
+        "a"
+      ],
+      "merged": "quota"
+    },
+    {
+      "pair": [
+        "re",
+        "v"
+      ],
+      "merged": "rev"
+    },
+    {
+      "pair": [
+        "rev",
+        "en"
+      ],
+      "merged": "reven"
+    },
+    {
+      "pair": [
+        "reven",
+        "u"
+      ],
+      "merged": "revenu"
+    },
+    {
+      "pair": [
+        "revenu",
+        "e"
+      ],
+      "merged": "revenue"
+    },
+    {
+      "pair": [
+        "ac",
+        "co"
+      ],
+      "merged": "acco"
+    },
+    {
+      "pair": [
+        "acco",
+        "u"
+      ],
+      "merged": "accou"
+    },
+    {
+      "pair": [
+        "accou",
+        "n"
+      ],
+      "merged": "accoun"
+    },
+    {
+      "pair": [
+        "accoun",
+        "t"
+      ],
+      "merged": "account"
+    },
+    {
+      "pair": [
+        "ex",
+        "per"
+      ],
+      "merged": "exper"
+    },
+    {
+      "pair": [
+        "exper",
+        "i"
+      ],
+      "merged": "experi"
+    },
+    {
+      "pair": [
+        "experi",
+        "ence"
+      ],
+      "merged": "experience"
+    },
+    {
+      "pair": [
+        "f",
+        "in"
+      ],
+      "merged": "fin"
+    },
+    {
+      "pair": [
+        "fin",
+        "an"
+      ],
+      "merged": "finan"
+    },
+    {
+      "pair": [
+        "finan",
+        "cial"
+      ],
+      "merged": "financial"
+    },
+    {
+      "pair": [
+        "model",
+        "ing"
+      ],
+      "merged": "modeling"
+    },
+    {
+      "pair": [
+        "f",
+        "o"
+      ],
+      "merged": "fo"
+    },
+    {
+      "pair": [
+        "fo",
+        "re"
+      ],
+      "merged": "fore"
+    },
+    {
+      "pair": [
+        "fore",
+        "c"
+      ],
+      "merged": "forec"
+    },
+    {
+      "pair": [
+        "forec",
+        "ast"
+      ],
+      "merged": "forecast"
+    },
+    {
+      "pair": [
+        "forecast",
+        "ing"
+      ],
+      "merged": "forecasting"
+    },
+    {
+      "pair": [
+        "v",
+        "ar"
+      ],
+      "merged": "var"
+    },
+    {
+      "pair": [
+        "var",
+        "i"
+      ],
+      "merged": "vari"
+    },
+    {
+      "pair": [
+        "vari",
+        "an"
+      ],
+      "merged": "varian"
+    },
+    {
+      "pair": [
+        "varian",
+        "ce"
+      ],
+      "merged": "variance"
+    },
+    {
+      "pair": [
+        "a",
+        "ut"
+      ],
+      "merged": "aut"
+    },
+    {
+      "pair": [
+        "aut",
+        "om"
+      ],
+      "merged": "autom"
+    },
+    {
+      "pair": [
+        "autom",
+        "ation"
+      ],
+      "merged": "automation"
+    },
+    {
+      "pair": [
+        "g",
+        "c"
+      ],
+      "merged": "gc"
+    },
+    {
+      "pair": [
+        "gc",
+        "p"
+      ],
+      "merged": "gcp"
+    },
+    {
+      "pair": [
+        "j",
+        "en"
+      ],
+      "merged": "jen"
+    },
+    {
+      "pair": [
+        "jen",
+        "k"
+      ],
+      "merged": "jenk"
+    },
+    {
+      "pair": [
+        "jenk",
+        "in"
+      ],
+      "merged": "jenkin"
+    },
+    {
+      "pair": [
+        "jenkin",
+        "s"
+      ],
+      "merged": "jenkins"
+    },
+    {
+      "pair": [
+        "go",
+        "lan"
+      ],
+      "merged": "golan"
+    },
+    {
+      "pair": [
+        "golan",
+        "g"
+      ],
+      "merged": "golang"
+    },
+    {
+      "pair": [
+        "h",
+        "r"
+      ],
+      "merged": "hr"
+    },
+    {
+      "pair": [
+        "p",
+        "art"
+      ],
+      "merged": "part"
+    },
+    {
+      "pair": [
+        "part",
+        "ner"
+      ],
+      "merged": "partner"
+    },
+    {
+      "pair": [
+        "re",
+        "cr"
+      ],
+      "merged": "recr"
+    },
+    {
+      "pair": [
+        "recr",
+        "u"
+      ],
+      "merged": "recru"
+    },
+    {
+      "pair": [
+        "recru",
+        "iting"
+      ],
+      "merged": "recruiting"
+    },
+    {
+      "pair": [
+        "on",
+        "b"
+      ],
+      "merged": "onb"
+    },
+    {
+      "pair": [
+        "onb",
+        "o"
+      ],
+      "merged": "onbo"
+    },
+    {
+      "pair": [
+        "onbo",
+        "ar"
+      ],
+      "merged": "onboar"
+    },
+    {
+      "pair": [
+        "onboar",
+        "d"
+      ],
+      "merged": "onboard"
+    },
+    {
+      "pair": [
+        "onboard",
+        "ing"
+      ],
+      "merged": "onboarding"
+    },
+    {
+      "pair": [
+        "e",
+        "mp"
+      ],
+      "merged": "emp"
+    },
+    {
+      "pair": [
+        "emp",
+        "lo"
+      ],
+      "merged": "emplo"
+    },
+    {
+      "pair": [
+        "emplo",
+        "ye"
+      ],
+      "merged": "employe"
+    },
+    {
+      "pair": [
+        "employe",
+        "e"
+      ],
+      "merged": "employee"
+    },
+    {
+      "pair": [
+        "rel",
+        "ations"
+      ],
+      "merged": "relations"
+    },
+    {
+      "pair": [
+        "t",
+        "al"
+      ],
+      "merged": "tal"
+    },
+    {
+      "pair": [
+        "tal",
+        "ent"
+      ],
+      "merged": "talent"
+    },
+    {
+      "pair": [
+        "ap",
+        "ach"
+      ],
+      "merged": "apach"
+    },
+    {
+      "pair": [
+        "apach",
+        "e"
+      ],
+      "merged": "apache"
+    },
+    {
+      "pair": [
+        "b",
+        "ig"
+      ],
+      "merged": "big"
+    },
+    {
+      "pair": [
+        "pipe",
+        "lin"
+      ],
+      "merged": "pipelin"
+    },
+    {
+      "pair": [
+        "pipelin",
+        "es"
+      ],
+      "merged": "pipelines"
+    },
+    {
+      "pair": [
+        "ware",
+        "ho"
+      ],
+      "merged": "wareho"
+    },
+    {
+      "pair": [
+        "wareho",
+        "us"
+      ],
+      "merged": "warehous"
+    },
+    {
+      "pair": [
+        "warehous",
+        "ing"
+      ],
+      "merged": "warehousing"
+    },
+    {
+      "pair": [
+        "graph",
+        "ic"
+      ],
+      "merged": "graphic"
+    },
+    {
+      "pair": [
+        "des",
+        "ig"
+      ],
+      "merged": "desig"
+    },
+    {
+      "pair": [
+        "desig",
+        "ner"
+      ],
+      "merged": "designer"
+    },
+    {
+      "pair": [
+        "a",
+        "do"
+      ],
+      "merged": "ado"
+    },
+    {
+      "pair": [
+        "ado",
+        "b"
+      ],
+      "merged": "adob"
+    },
+    {
+      "pair": [
+        "adob",
+        "e"
+      ],
+      "merged": "adobe"
+    },
+    {
+      "pair": [
+        "f",
+        "igma"
+      ],
+      "merged": "figma"
+    },
+    {
+      "pair": [
+        "id",
+        "ent"
+      ],
+      "merged": "ident"
+    },
+    {
+      "pair": [
+        "ident",
+        "ity"
+      ],
+      "merged": "identity"
+    },
+    {
+      "pair": [
+        "vis",
+        "u"
+      ],
+      "merged": "visu"
+    },
+    {
+      "pair": [
+        "visu",
+        "al"
+      ],
+      "merged": "visual"
+    },
+    {
+      "pair": [
+        "des",
+        "ign"
+      ],
+      "merged": "design"
+    },
+    {
+      "pair": [
+        "il",
+        "l"
+      ],
+      "merged": "ill"
+    },
+    {
+      "pair": [
+        "ill",
+        "u"
+      ],
+      "merged": "illu"
+    },
+    {
+      "pair": [
+        "illu",
+        "str"
+      ],
+      "merged": "illustr"
+    },
+    {
+      "pair": [
+        "illustr",
+        "ation"
+      ],
+      "merged": "illustration"
+    },
+    {
+      "pair": [
+        "t",
+        "a"
+      ],
+      "merged": "ta"
+    },
+    {
+      "pair": [
+        "ta",
+        "il"
+      ],
+      "merged": "tail"
+    },
+    {
+      "pair": [
+        "tail",
+        "w"
+      ],
+      "merged": "tailw"
+    },
+    {
+      "pair": [
+        "tailw",
+        "in"
+      ],
+      "merged": "tailwin"
+    },
+    {
+      "pair": [
+        "tailwin",
+        "d"
+      ],
+      "merged": "tailwind"
+    },
+    {
+      "pair": [
+        "tailwind",
+        "css"
+      ],
+      "merged": "tailwindcss"
+    },
+    {
+      "pair": [
+        "w",
+        "e"
+      ],
+      "merged": "we"
+    },
+    {
+      "pair": [
+        "we",
+        "b"
+      ],
+      "merged": "web"
+    },
+    {
+      "pair": [
+        "op",
+        "t"
+      ],
+      "merged": "opt"
+    },
+    {
+      "pair": [
+        "opt",
+        "im"
+      ],
+      "merged": "optim"
+    },
+    {
+      "pair": [
+        "optim",
+        "i"
+      ],
+      "merged": "optimi"
+    },
+    {
+      "pair": [
+        "optimi",
+        "z"
+      ],
+      "merged": "optimiz"
+    },
+    {
+      "pair": [
+        "optimiz",
+        "ation"
+      ],
+      "merged": "optimization"
+    },
+    {
+      "pair": [
+        "ac",
+        "cess"
+      ],
+      "merged": "access"
+    },
+    {
+      "pair": [
+        "access",
+        "i"
+      ],
+      "merged": "accessi"
+    },
+    {
+      "pair": [
+        "accessi",
+        "bility"
+      ],
+      "merged": "accessibility"
+    },
+    {
+      "pair": [
+        "o",
+        "per"
+      ],
+      "merged": "oper"
+    },
+    {
+      "pair": [
+        "oper",
+        "ations"
+      ],
+      "merged": "operations"
+    },
+    {
+      "pair": [
+        "s",
+        "u"
+      ],
+      "merged": "su"
+    },
+    {
+      "pair": [
+        "su",
+        "p"
+      ],
+      "merged": "sup"
+    },
+    {
+      "pair": [
+        "sup",
+        "p"
+      ],
+      "merged": "supp"
+    },
+    {
+      "pair": [
+        "supp",
+        "l"
+      ],
+      "merged": "suppl"
+    },
+    {
+      "pair": [
+        "suppl",
+        "y"
+      ],
+      "merged": "supply"
+    },
+    {
+      "pair": [
+        "ch",
+        "a"
+      ],
+      "merged": "cha"
+    },
+    {
+      "pair": [
+        "cha",
+        "in"
+      ],
+      "merged": "chain"
+    },
+    {
+      "pair": [
+        "log",
+        "ist"
+      ],
+      "merged": "logist"
+    },
+    {
+      "pair": [
+        "logist",
+        "ic"
+      ],
+      "merged": "logistic"
+    },
+    {
+      "pair": [
+        "logistic",
+        "s"
+      ],
+      "merged": "logistics"
+    },
+    {
+      "pair": [
+        "im",
+        "pro"
+      ],
+      "merged": "impro"
+    },
+    {
+      "pair": [
+        "impro",
+        "ve"
+      ],
+      "merged": "improve"
+    },
+    {
+      "pair": [
+        "improve",
+        "ment"
+      ],
+      "merged": "improvement"
+    },
+    {
+      "pair": [
+        "le",
+        "an"
+      ],
+      "merged": "lean"
+    },
+    {
+      "pair": [
+        "s",
+        "i"
+      ],
+      "merged": "si"
+    },
+    {
+      "pair": [
+        "si",
+        "x"
+      ],
+      "merged": "six"
+    },
+    {
+      "pair": [
+        "s",
+        "igma"
+      ],
+      "merged": "sigma"
+    },
+    {
+      "pair": [
+        "s",
+        "it"
+      ],
+      "merged": "sit"
+    },
+    {
+      "pair": [
+        "sit",
+        "e"
+      ],
+      "merged": "site"
+    },
+    {
+      "pair": [
+        "mon",
+        "itor"
+      ],
+      "merged": "monitor"
+    },
+    {
+      "pair": [
+        "monitor",
+        "ing"
+      ],
+      "merged": "monitoring"
+    },
+    {
+      "pair": [
+        "s",
+        "re"
+      ],
+      "merged": "sre"
+    },
+    {
+      "pair": [
+        "gra",
+        "f"
+      ],
+      "merged": "graf"
+    },
+    {
+      "pair": [
+        "graf",
+        "an"
+      ],
+      "merged": "grafan"
+    },
+    {
+      "pair": [
+        "grafan",
+        "a"
+      ],
+      "merged": "grafana"
+    },
+    {
+      "pair": [
+        "in",
+        "ci"
+      ],
+      "merged": "inci"
+    },
+    {
+      "pair": [
+        "inci",
+        "d"
+      ],
+      "merged": "incid"
+    },
+    {
+      "pair": [
+        "incid",
+        "ent"
+      ],
+      "merged": "incident"
+    },
+    {
+      "pair": [
+        "wr",
+        "it"
+      ],
+      "merged": "writ"
+    },
+    {
+      "pair": [
+        "writ",
+        "er"
+      ],
+      "merged": "writer"
+    },
+    {
+      "pair": [
+        "b",
+        "log"
+      ],
+      "merged": "blog"
+    },
+    {
+      "pair": [
+        "art",
+        "ic"
+      ],
+      "merged": "artic"
+    },
+    {
+      "pair": [
+        "artic",
+        "l"
+      ],
+      "merged": "articl"
+    },
+    {
+      "pair": [
+        "articl",
+        "es"
+      ],
+      "merged": "articles"
+    },
+    {
+      "pair": [
+        "co",
+        "py"
+      ],
+      "merged": "copy"
+    },
+    {
+      "pair": [
+        "copy",
+        "wr"
+      ],
+      "merged": "copywr"
+    },
+    {
+      "pair": [
+        "copywr",
+        "iting"
+      ],
+      "merged": "copywriting"
+    },
+    {
+      "pair": [
+        "ed",
+        "itor"
+      ],
+      "merged": "editor"
+    },
+    {
+      "pair": [
+        "editor",
+        "i"
+      ],
+      "merged": "editori"
+    },
+    {
+      "pair": [
+        "editori",
+        "al"
+      ],
+      "merged": "editorial"
+    },
+    {
+      "pair": [
+        "c",
+        "al"
+      ],
+      "merged": "cal"
+    },
+    {
+      "pair": [
+        "cal",
+        "end"
+      ],
+      "merged": "calend"
+    },
+    {
+      "pair": [
+        "calend",
+        "ar"
+      ],
+      "merged": "calendar"
+    },
+    {
+      "pair": [
+        "c",
+        "+"
+      ],
+      "merged": "c+"
+    },
+    {
+      "pair": [
+        "c+",
+        "+"
+      ],
+      "merged": "c++"
+    },
+    {
+      "pair": [
+        "pro",
+        "ject"
+      ],
+      "merged": "project"
+    },
+    {
+      "pair": [
+        "p",
+        "mp"
+      ],
+      "merged": "pmp"
+    },
+    {
+      "pair": [
+        "ag",
+        "il"
+      ],
+      "merged": "agil"
+    },
+    {
+      "pair": [
+        "agil",
+        "e"
+      ],
+      "merged": "agile"
+    },
+    {
+      "pair": [
+        "w",
+        "at"
+      ],
+      "merged": "wat"
+    },
+    {
+      "pair": [
+        "wat",
+        "er"
+      ],
+      "merged": "water"
+    },
+    {
+      "pair": [
+        "water",
+        "f"
+      ],
+      "merged": "waterf"
+    },
+    {
+      "pair": [
+        "waterf",
+        "al"
+      ],
+      "merged": "waterfal"
+    },
+    {
+      "pair": [
+        "waterfal",
+        "l"
+      ],
+      "merged": "waterfall"
+    },
+    {
+      "pair": [
+        "del",
+        "i"
+      ],
+      "merged": "deli"
+    },
+    {
+      "pair": [
+        "deli",
+        "v"
+      ],
+      "merged": "deliv"
+    },
+    {
+      "pair": [
+        "deliv",
+        "er"
+      ],
+      "merged": "deliver"
+    },
+    {
+      "pair": [
+        "deliver",
+        "y"
+      ],
+      "merged": "delivery"
+    },
+    {
+      "pair": [
+        "comp",
+        "o"
+      ],
+      "merged": "compo"
+    },
+    {
+      "pair": [
+        "compo",
+        "se"
+      ],
+      "merged": "compose"
+    },
+    {
+      "pair": [
+        "ph",
+        "y"
+      ],
+      "merged": "phy"
+    },
+    {
+      "pair": [
+        "phy",
+        "s"
+      ],
+      "merged": "phys"
+    },
+    {
+      "pair": [
+        "phys",
+        "ical"
+      ],
+      "merged": "physical"
+    },
+    {
+      "pair": [
+        "th",
+        "er"
+      ],
+      "merged": "ther"
+    },
+    {
+      "pair": [
+        "ther",
+        "api"
+      ],
+      "merged": "therapi"
+    },
+    {
+      "pair": [
+        "therapi",
+        "st"
+      ],
+      "merged": "therapist"
+    },
+    {
+      "pair": [
+        "re",
+        "h"
+      ],
+      "merged": "reh"
+    },
+    {
+      "pair": [
+        "reh",
+        "a"
+      ],
+      "merged": "reha"
+    },
+    {
+      "pair": [
+        "reha",
+        "bil"
+      ],
+      "merged": "rehabil"
+    },
+    {
+      "pair": [
+        "rehabil",
+        "it"
+      ],
+      "merged": "rehabilit"
+    },
+    {
+      "pair": [
+        "rehabilit",
+        "ation"
+      ],
+      "merged": "rehabilitation"
+    },
+    {
+      "pair": [
+        "ex",
+        "er"
+      ],
+      "merged": "exer"
+    },
+    {
+      "pair": [
+        "exer",
+        "ci"
+      ],
+      "merged": "exerci"
+    },
+    {
+      "pair": [
+        "exerci",
+        "se"
+      ],
+      "merged": "exercise"
+    },
+    {
+      "pair": [
+        "s",
+        "ast"
+      ],
+      "merged": "sast"
+    },
+    {
+      "pair": [
+        "d",
+        "ast"
+      ],
+      "merged": "dast"
+    },
+    {
+      "pair": [
+        "t",
+        "e"
+      ],
+      "merged": "te"
+    },
+    {
+      "pair": [
+        "te",
+        "ach"
+      ],
+      "merged": "teach"
+    },
+    {
+      "pair": [
+        "teach",
+        "er"
+      ],
+      "merged": "teacher"
+    },
+    {
+      "pair": [
+        "cur",
+        "r"
+      ],
+      "merged": "curr"
+    },
+    {
+      "pair": [
+        "curr",
+        "ic"
+      ],
+      "merged": "curric"
+    },
+    {
+      "pair": [
+        "curric",
+        "ul"
+      ],
+      "merged": "curricul"
+    },
+    {
+      "pair": [
+        "curricul",
+        "u"
+      ],
+      "merged": "curriculu"
+    },
+    {
+      "pair": [
+        "curriculu",
+        "m"
+      ],
+      "merged": "curriculum"
+    },
+    {
+      "pair": [
+        "l",
+        "ess"
+      ],
+      "merged": "less"
+    },
+    {
+      "pair": [
+        "less",
+        "on"
+      ],
+      "merged": "lesson"
+    },
+    {
+      "pair": [
+        "p",
+        "lan"
+      ],
+      "merged": "plan"
+    },
+    {
+      "pair": [
+        "plan",
+        "s"
+      ],
+      "merged": "plans"
+    },
+    {
+      "pair": [
+        "c",
+        "l"
+      ],
+      "merged": "cl"
+    },
+    {
+      "pair": [
+        "cl",
+        "ass"
+      ],
+      "merged": "class"
+    },
+    {
+      "pair": [
+        "class",
+        "ro"
+      ],
+      "merged": "classro"
+    },
+    {
+      "pair": [
+        "classro",
+        "om"
+      ],
+      "merged": "classroom"
+    },
+    {
+      "pair": [
+        "st",
+        "ud"
+      ],
+      "merged": "stud"
+    },
+    {
+      "pair": [
+        "stud",
+        "ent"
+      ],
+      "merged": "student"
+    },
+    {
+      "pair": [
+        "grad",
+        "ing"
+      ],
+      "merged": "grading"
+    },
+    {
+      "pair": [
+        "n",
+        "e"
+      ],
+      "merged": "ne"
+    },
+    {
+      "pair": [
+        "ne",
+        "w"
+      ],
+      "merged": "new"
+    },
+    {
+      "pair": [
+        "grad",
+        "u"
+      ],
+      "merged": "gradu"
+    },
+    {
+      "pair": [
+        "gradu",
+        "ate"
+      ],
+      "merged": "graduate"
+    },
+    {
+      "pair": [
+        "le",
+        "et"
+      ],
+      "merged": "leet"
+    },
+    {
+      "pair": [
+        "leet",
+        "code"
+      ],
+      "merged": "leetcode"
+    },
+    {
+      "pair": [
+        "in",
+        "t"
+      ],
+      "merged": "int"
+    },
+    {
+      "pair": [
+        "int",
+        "ern"
+      ],
+      "merged": "intern"
+    },
+    {
+      "pair": [
+        "intern",
+        "s"
+      ],
+      "merged": "interns"
+    },
+    {
+      "pair": [
+        "interns",
+        "h"
+      ],
+      "merged": "internsh"
+    },
+    {
+      "pair": [
+        "internsh",
+        "ip"
+      ],
+      "merged": "internship"
+    },
+    {
+      "pair": [
+        "re",
+        "g"
+      ],
+      "merged": "reg"
+    },
+    {
+      "pair": [
+        "reg",
+        "ist"
+      ],
+      "merged": "regist"
+    },
+    {
+      "pair": [
+        "regist",
+        "er"
+      ],
+      "merged": "register"
+    },
+    {
+      "pair": [
+        "register",
+        "ed"
+      ],
+      "merged": "registered"
+    },
+    {
+      "pair": [
+        "n",
+        "u"
+      ],
+      "merged": "nu"
+    },
+    {
+      "pair": [
+        "nu",
+        "r"
+      ],
+      "merged": "nur"
+    },
+    {
+      "pair": [
+        "nur",
+        "se"
+      ],
+      "merged": "nurse"
+    },
+    {
+      "pair": [
+        "ho",
+        "sp"
+      ],
+      "merged": "hosp"
+    },
+    {
+      "pair": [
+        "hosp",
+        "ital"
+      ],
+      "merged": "hospital"
+    },
+    {
+      "pair": [
+        "e",
+        "m"
+      ],
+      "merged": "em"
+    },
+    {
+      "pair": [
+        "em",
+        "r"
+      ],
+      "merged": "emr"
+    },
+    {
+      "pair": [
+        "t",
+        "ri"
+      ],
+      "merged": "tri"
+    },
+    {
+      "pair": [
+        "tri",
+        "ag"
+      ],
+      "merged": "triag"
+    },
+    {
+      "pair": [
+        "triag",
+        "e"
+      ],
+      "merged": "triage"
+    },
+    {
+      "pair": [
+        "o",
+        "b"
+      ],
+      "merged": "ob"
+    },
+    {
+      "pair": [
+        "ob",
+        "ject"
+      ],
+      "merged": "object"
+    },
+    {
+      "pair": [
+        "object",
+        "ive"
+      ],
+      "merged": "objective"
+    },
+    {
+      "pair": [
+        "re",
+        "q"
+      ],
+      "merged": "req"
+    },
+    {
+      "pair": [
+        "req",
+        "ui"
+      ],
+      "merged": "requi"
+    },
+    {
+      "pair": [
+        "requi",
+        "re"
+      ],
+      "merged": "require"
+    },
+    {
+      "pair": [
+        "require",
+        "ment"
+      ],
+      "merged": "requirement"
+    },
+    {
+      "pair": [
+        "requirement",
+        "s"
+      ],
+      "merged": "requirements"
+    },
+    {
+      "pair": [
+        "m",
+        "app"
+      ],
+      "merged": "mapp"
+    },
+    {
+      "pair": [
+        "mapp",
+        "ing"
+      ],
+      "merged": "mapping"
+    },
+    {
+      "pair": [
+        "u",
+        "at"
+      ],
+      "merged": "uat"
+    }
+  ],
+  "vocab": [
+    "structures",
+    "ware",
+    "ach",
+    "post",
+    "stakehol",
+    "articl",
+    "al",
+    "at",
+    "mach",
+    "ake",
+    "end",
+    "calendar",
+    "blog",
+    "infrastructure",
+    "editor",
+    "code",
+    "exce",
+    "y",
+    "talent",
+    "sigma",
+    "c+",
+    "ho",
+    "recruiting",
+    "illu",
+    "v",
+    "po",
+    "ill",
+    "docker",
+    "adobe",
+    "rehabil",
+    "pen",
+    "qu",
+    "emp",
+    "curriculum",
+    "big",
+    "ca",
+    "igm",
+    "performan",
+    "mic",
+    "campaign",
+    "ical",
+    "varian",
+    "apple",
+    "copy",
+    "sre",
+    "rust",
+    "strateg",
+    "plans",
+    "kubernetes",
+    "dat",
+    "excel",
+    "sit",
+    "pip",
+    "experience",
+    "enterprise",
+    "doc",
+    "ter",
+    "tailwin",
+    "suppl",
+    "learning",
+    "w",
+    "cu",
+    "rel",
+    "strategy",
+    "market",
+    "optimization",
+    "gc",
+    "prometheus",
+    "su",
+    "and",
+    "graphql",
+    "tail",
+    "reh",
+    "delivery",
+    "andro",
+    "ject",
+    "pat",
+    "cl",
+    "reporting",
+    "deployed",
+    "tens",
+    "campa",
+    "vul",
+    "sql",
+    "golan",
+    "se",
+    "for",
+    "bil",
+    "ac",
+    "frontend",
+    "microser",
+    "infrastructu",
+    "itor",
+    "databas",
+    "node",
+    "mvv",
+    "deplo",
+    "tri",
+    "copywriting",
+    "tal",
+    "low",
+    "lesson",
+    "micros",
+    "om",
+    "inci",
+    "algor",
+    "no",
+    "nurse",
+    "jet",
+    "artic",
+    "recr",
+    "vulnerability",
+    "cur",
+    "b",
+    "ion",
+    "ot",
+    "distr",
+    "med",
+    "patient",
+    "part",
+    "adob",
+    "lat",
+    "dj",
+    "identity",
+    "snowflake",
+    "internship",
+    "reac",
+    "enterpri",
+    "cd",
+    "ra",
+    "datab",
+    "agile",
+    "ml",
+    "front",
+    "stakeho",
+    "postg",
+    "x",
+    "strate",
+    "alg",
+    "r",
+    "deployment",
+    "dock",
+    "classro",
+    "ro",
+    "mongo",
+    "opt",
+    "tensor",
+    "engineer",
+    "l",
+    "exercise",
+    "mark",
+    "te",
+    "api",
+    "analyst",
+    "registered",
+    "access",
+    "leet",
+    "es",
+    "bility",
+    "assess",
+    "de",
+    "req",
+    "requi",
+    "ul",
+    "ign",
+    "nlp",
+    "grad",
+    "snow",
+    "f",
+    "ja",
+    "java",
+    "writ",
+    "exerci",
+    "typescript",
+    "algorit",
+    "ont",
+    "dev",
+    "flow",
+    "sast",
+    "lear",
+    "nur",
+    "deploy",
+    "mo",
+    "software",
+    "cal",
+    "ation",
+    "djan",
+    "ine",
+    "gra",
+    "ass",
+    "b2b",
+    "calend",
+    "manag",
+    "incid",
+    "ag",
+    "stakehold",
+    "swi",
+    "onbo",
+    "waterf",
+    "reliability",
+    "deep",
+    "monitor",
+    "supp",
+    "aws",
+    "teach",
+    "ity",
+    "pro",
+    "pyth",
+    "iting",
+    "mapp",
+    "backend",
+    "hospital",
+    "compo",
+    "enterp",
+    "salesfor",
+    "management",
+    "care",
+    "er",
+    "or",
+    "latenc",
+    "account",
+    "infra",
+    "progra",
+    "et",
+    "clin",
+    "ne",
+    "forecast",
+    "wareho",
+    "anal",
+    "ence",
+    "full",
+    "ten",
+    "uik",
+    "h",
+    "stack",
+    "grafana",
+    "mongodb",
+    "nu",
+    "le",
+    "2",
+    "salesforce",
+    "hosp",
+    "penet",
+    "jetp",
+    "o",
+    "ting",
+    "process",
+    "six",
+    "del",
+    "programming",
+    "+",
+    "react",
+    "reha",
+    "intern",
+    "g",
+    "modeling",
+    "mapping",
+    "pipeline",
+    "ci",
+    "executive",
+    "ment",
+    "repor",
+    "ta",
+    "st",
+    "comp",
+    "nex",
+    "ct",
+    "ch",
+    "kotlin",
+    "experi",
+    "onb",
+    "man",
+    "employee",
+    "onboarding",
+    "im",
+    "algorith",
+    "project",
+    "penetr",
+    "int",
+    "var",
+    "financial",
+    "ve",
+    "automation",
+    "manage",
+    "performance",
+    "waterfall",
+    "ai",
+    "jen",
+    "monitoring",
+    "logist",
+    "str",
+    "ations",
+    "optimi",
+    "site",
+    "impro",
+    "lan",
+    "databa",
+    "it",
+    "promethe",
+    "mongod",
+    "py",
+    "models",
+    "vulner",
+    "rev",
+    "regist",
+    "illustration",
+    "wr",
+    "sal",
+    "in",
+    "sw",
+    "pytor",
+    "databases",
+    "penetration",
+    "sales",
+    "interns",
+    "accou",
+    "finan",
+    "n",
+    "media",
+    "jetpack",
+    "il",
+    "graf",
+    "sen",
+    "deliver",
+    "stud",
+    "etl",
+    "spark",
+    "id",
+    "quota",
+    "d",
+    "waterfal",
+    "ku",
+    "ist",
+    "sp",
+    "gradu",
+    "onboard",
+    "ern",
+    "en",
+    "perfor",
+    "ast",
+    "ado",
+    "clinical",
+    "res",
+    "testing",
+    "seni",
+    "syste",
+    "dast",
+    "water",
+    "object",
+    "senior",
+    "science",
+    "devops",
+    "deli",
+    "android",
+    "classroom",
+    "requirement",
+    "di",
+    "class",
+    "ty",
+    "warehous",
+    "k",
+    "uct",
+    "ios",
+    "golang",
+    "go",
+    "production",
+    "requirements",
+    "medi",
+    "ital",
+    "physical",
+    "prom",
+    "je",
+    "vari",
+    "designer",
+    "ql",
+    "year",
+    "jenkin",
+    "ob",
+    "ar",
+    "ft",
+    "kubernet",
+    "programm",
+    "mp",
+    "forecasting",
+    "terra",
+    "vis",
+    "snowf",
+    "devop",
+    "cont",
+    "vision",
+    "document",
+    "visu",
+    "vi",
+    "si",
+    "curriculu",
+    "recru",
+    "brand",
+    "budget",
+    "algorithms",
+    "em",
+    "relations",
+    "manager",
+    "apach",
+    "clo",
+    "pipel",
+    "bus",
+    "assessment",
+    "tensorflow",
+    "illustr",
+    ".",
+    "io",
+    "ak",
+    "terraform",
+    "articles",
+    "kub",
+    "swiftui",
+    "ex",
+    "reli",
+    "ful",
+    "des",
+    "oper",
+    "pati",
+    "th",
+    "variance",
+    "onboar",
+    "phy",
+    "soft",
+    "nl",
+    "computer",
+    "develop",
+    "phys",
+    "digital",
+    "agil",
+    "microserv",
+    "br",
+    "ive",
+    "5",
+    "distrib",
+    "fo",
+    "internsh",
+    "accoun",
+    "6",
+    "emplo",
+    "ud",
+    "mon",
+    "prometh",
+    "typescr",
+    "app",
+    "dig",
+    "autom",
+    "student",
+    "curricul",
+    "hr",
+    "ess",
+    "editorial",
+    "ic",
+    "emr",
+    "editori",
+    "jenkins",
+    "bud",
+    "revenue",
+    "jenk",
+    "aut",
+    "a",
+    "structu",
+    "postgres",
+    "program",
+    "django",
+    "graphic",
+    "distribut",
+    "busin",
+    "b2",
+    "machine",
+    "re",
+    "prome",
+    "uat",
+    "lin",
+    "seo",
+    "reven",
+    "t",
+    "accessibility",
+    "an",
+    "therapist",
+    "ark",
+    "j",
+    "tes",
+    "art",
+    "dee",
+    "objective",
+    "execut",
+    "ru",
+    "yst",
+    "distri",
+    "grading",
+    "social",
+    "docu",
+    "deve",
+    "curric",
+    "ig",
+    "marketing",
+    "terrafor",
+    "web",
+    "c++",
+    "op",
+    "cr",
+    "syst",
+    "sci",
+    "mobil",
+    "jav",
+    "triag",
+    "ss",
+    "exec",
+    "types",
+    "tailwindcss",
+    "rep",
+    "ent",
+    "micro",
+    "pipelines",
+    "data",
+    "accessi",
+    "typ",
+    "figma",
+    "sup",
+    "optim",
+    "apache",
+    "logistics",
+    "rehabilit",
+    "cloud",
+    "microservices",
+    "snowfl",
+    "lean",
+    "comput",
+    "ner",
+    "teacher",
+    "tailw",
+    "ident",
+    "z",
+    "design",
+    "logistic",
+    "years",
+    "igma",
+    "exper",
+    "ui",
+    "less",
+    "acco",
+    "we",
+    "i",
+    "struct",
+    "desig",
+    "uikit",
+    "p",
+    "ut",
+    "documentation",
+    "graduate",
+    "pyt",
+    "business",
+    "pytorch",
+    "development",
+    "new",
+    "forec",
+    "sno",
+    "quot",
+    "grafan",
+    "ce",
+    "log",
+    "employe",
+    "wat",
+    "on",
+    "xcode",
+    "chain",
+    "ip",
+    "lo",
+    "q",
+    "security",
+    "curr",
+    "improve",
+    "ri",
+    "budg",
+    "incident",
+    "exer",
+    "distributed",
+    "campaigns",
+    "4",
+    "cial",
+    "airflow",
+    "e",
+    "aw",
+    "leetcode",
+    "graph",
+    "air",
+    "m",
+    "develo",
+    "enter",
+    "back",
+    "pmp",
+    "do",
+    "sd",
+    "ap",
+    "prod",
+    "register",
+    "product",
+    "css",
+    "optimiz",
+    "swift",
+    "partner",
+    "cha",
+    "typescrip",
+    "kot",
+    "microservic",
+    "learn",
+    "cess",
+    "reg",
+    "camp",
+    "revenu",
+    "gcp",
+    "developer",
+    "stakeholder",
+    "ack",
+    "fore",
+    "therapi",
+    "ing",
+    "mvvm",
+    "pipelin",
+    "js",
+    "writer",
+    "stake",
+    "co",
+    "engine",
+    "postgresql",
+    "c",
+    "fr",
+    "python",
+    "eng",
+    "mobile",
+    "mv",
+    "rehabilitation",
+    "content",
+    "next",
+    "laten",
+    "rest",
+    "ate",
+    "exe",
+    "inf",
+    "ed",
+    "fin",
+    "s",
+    "require",
+    "ph",
+    "model",
+    "supply",
+    "compose",
+    "ye",
+    "pipe",
+    "dep",
+    "improvement",
+    "deliv",
+    "ther",
+    "ability",
+    "so",
+    "tailwind",
+    "plan",
+    "warehousing",
+    "ms",
+    "u",
+    "kubern",
+    "latency",
+    "operations",
+    "systems",
+    "copywr",
+    "are",
+    "per",
+    "visual",
+    "sdk",
+    "triage",
+    "us",
+    "secur"
+  ]
+}
